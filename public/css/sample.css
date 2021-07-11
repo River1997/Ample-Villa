@@ -1,0 +1,592 @@
+
+@import url('http://fonts.cdnfonts.com/css/century-schoolbook');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* nav */
+nav {
+    width: 100%;
+
+    height: 100px;
+    font-size: 28px;
+    font-family: 'Century Schoolbook', sans-serif;
+    color: rgb(184, 226, 255);
+    /* background-color: blue */
+
+}
+
+nav .container {
+    width: 90%;
+    max-width: 1720px;
+    height: 100px;
+    margin: auto;
+
+}
+
+
+.logo{
+    position: relative;
+}
+
+.logo-picture  img{
+    width: 250px;
+    float: left;
+    position: absolute;
+    top: 18px;
+
+
+
+}
+
+/* .logo-text {
+    height: 70px;
+    float: left;
+    position: absolute;
+    top: 8px;
+    left: 94px;
+} */
+
+/* 漢堡 */
+.barger {
+    float: right;
+    width: 400px;
+    position: relative;
+}
+
+label img {
+    width: 70px;
+    height: 40px;
+
+    transform: translate(327px, 28px);
+}
+
+input {
+    display: none;
+}
+
+.menu {
+    /* display: none; */
+    background-color: white;
+    list-style: none;
+    margin: unset;
+    padding: unset;
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    top:100px;
+    left: 25px;
+
+    padding-left: 50px;
+
+}
+
+input:checked~.menu {
+    /* min-height:582px;  */
+    max-height: 736px;
+    min-height: calc(100vh - 100px);
+    /* transition: all 0.5s ease-out; */
+    /* overflow: scroll;
+    overflow-x: hidden; */
+    z-index: 2;
+
+
+}
+
+.menu li {
+    width: 325px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(138, 185, 223);
+
+}
+
+.menu .logoin {
+    margin-top: 35px;
+}
+
+.menu .burgar-link {
+    margin-bottom: 30px;
+    /* text-align: center; */
+}
+
+.barger img {
+    width: 70px;
+    height: 40px;
+}
+
+/* main測試 */
+main .container {
+    width: 90%;
+    max-width: 1720px;
+
+    margin: auto;
+
+}
+.p {
+    max-width: 1719px;
+    height: 968px;
+    background-color: turquoise;
+    margin: auto;
+}
+
+/* footer */
+/* footer {
+    width: 100vh;
+    font-family: 'Century Schoolbook', sans-serif;
+
+} */
+
+/* footer-map */
+.footer-map{
+    max-width: 1720px;
+
+}
+.footer-map .text-getting {
+    font-size: 70px;
+    height: 365px;
+    text-align: center;
+    line-height: 365px;
+    font-weight: lighter;
+
+    position: relative;
+}
+
+.footer-map .text-getting::after {
+    content: " ";
+    position: absolute;
+    top: 78%;
+    right: 44%;
+    width: 200px;
+    height: 5px;
+    background-color: rgb(184, 226, 255);
+    border: 1rpx solid lightgray;
+}
+.footer-map .text{
+    position: relative;
+}
+
+.seagull {
+    position: absolute;
+    top:10% ;
+    left: 60%;
+    /* top: -20px;
+    right: 206px; */
+    transition-delay: 5s;
+}
+
+.footer-map {
+
+    margin: auto;
+    position: relative;
+}
+
+.footer-map .picture {
+    max-width: 1920px;
+    height: 870px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-map .picture iframe {
+    width: 90%;
+    height: 870px;
+    border-width: 40px;
+    border-color: rgb(247, 241, 231);
+    border-style: solid;
+
+    position: absolute;
+    top: 0;
+    left: calc ( 50% - 435px );
+    /* transform: translate(-50%, 25%);
+    border-style:solid; */
+}
+
+.footer-map .picture .compass {
+    position: absolute;
+    top: 429px;
+    left: -81px;
+
+}
+.compass img{
+    max-width: 600px;
+}
+
+.footer-map .write {
+    font-size: 32px;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.footer-map .photo {
+    height: 61px;
+
+    margin: 25px 0 88px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-map .photo .middle {
+    margin:0 50px 0;
+
+}
+
+/* footer-content */
+
+.footer-content {
+    max-width: 1920px;
+    height: 395px;
+    background-color: rgba(63,117,147,255);
+}
+.footer-content .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-left-1 {
+    display: flex;
+    padding-top: 105px;
+    padding-left: 100px;
+    width: auto;
+}
+.text-left-1 span {
+    list-style: none;
+    font-size: 22px;
+    padding: 0px;
+    display: block;
+
+}
+.text-left-1 span a {
+    text-decoration: none;
+    color: white;
+    width: auto;
+
+
+}
+
+.text-left-1 .ample-villa {
+    margin-right: 60px;
+}
+.text-left-1 .item{
+    margin-bottom: 27px;
+}
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 85px;
+    padding-right: 150px;
+    width: auto;
+}
+.text-right ul {
+    list-style: none;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    margin-right: 50px;
+    width: auto;
+}
+.text-right .hotel-name,
+.text-right .phone {
+    padding-left: 264px;
+    margin-bottom: 27px;
+}
+.text-right {
+    padding-right: 50px;
+}
+.copyright{
+    position: relative;
+}
+.copyright .textarea {
+    font-size: 14px;
+    /* position: absolute; */
+    /* top: 36px;
+    left: 42%; */
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.copyright::after {
+    content: " ";
+    position: absolute;
+    top: -200%;
+    right: 4%;
+    width: 90%;
+    height: 2px;
+
+    background-color: white;
+    border: 1rpx solid lightgray;
+
+    margin-bottom: 10px;
+}
+.phone-photo {
+    display: block;
+    position: relative;
+}
+.ship-img-b {
+    position: absolute;
+    right: 410px;
+    top: 100px;
+}
+
+.ship-img-m {
+    position: absolute;
+    right: 620px;
+    top: 20px;
+}
+
+.ship-img-s {
+    position: absolute;
+    right: 480px;
+    top: -47px;
+}
+
+@media(max-width:1300px){
+    .footer-map .text-getting::after {
+        content: " ";
+        position: absolute;
+        right: 42%;
+    }
+}
+@media(max-width: 1008px) {
+    .text-left-1 {
+        display: block;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        margin-right: 45px;
+        position: relative;
+    }
+
+    .copyright::after{
+        display: none;
+    }
+
+    /* .text-left-1::after {
+    content: " ";
+    position: absolute;
+    top: 110%;
+    right: -8%;
+    width: 100%;
+    height: 5px;
+
+    background-color: white;
+    border: 1rpx solid lightgray;
+
+    margin-bottom: 10px;
+} */
+
+    .footer-content {
+        display: block;
+        background-image: none;
+        height: auto;
+        background-color: rgba(63, 117, 147, 255);
+    }
+
+    .footer-content .text {
+        display: block;
+        text-align: center;
+        color: black;
+
+    }
+
+    .footer-content .text li {
+        text-align: center;
+        padding: 0;
+
+    }
+
+    .text-right {
+        display: block;
+        padding: 50px;
+    }
+
+    .footer-content {
+        height: 800px;
+        width: auto;
+    }
+
+    .copyright{
+        position: relative;
+        margin: auto;
+
+    }
+
+    .copyright .textarea {
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+    .copyright .textarea::after {
+        content: " ";
+        position: absolute;
+        top: -1470%;
+        right: 5%;
+        width: 88%;
+        height: 2px;
+
+        background-color: white;
+        border: 1rpx solid lightgray;
+
+        margin-bottom: 10px;
+    }
+
+    .copyright .textarea::before {
+        content: " ";
+        position: absolute;
+        top: -180%;
+        right: 5%;
+        width: 88%;
+        height: 2px;
+
+        background-color: white;
+        border: 1rpx solid lightgray;
+
+        margin-bottom: 10px;
+    }
+
+    .phone-photo {
+        display: block;
+        position: relative;
+    }
+
+    .ship-img-b {
+        position: absolute;
+        right: 10px;
+        top: 150px;
+    }
+
+    .ship-img-m {
+        position: absolute;
+        left: 60px;
+        top: 50px;
+    }
+
+    .ship-img-s {
+        position: absolute;
+        right: 130px;
+        top: -47px;
+    }
+}
+@media(max-width:1000px){
+    .footer-map .text-getting {
+        font-size: 60px;
+        height: 337px;
+
+    }
+    .footer-map .picture iframe {
+        width: 100%;
+       border-style: unset;
+   }
+   .compass img{
+        max-width: 0;
+    }
+    .seagull img{
+        width: 200px;
+    }
+    .footer-map .text-getting::after {
+        content: " ";
+        position: absolute;
+        right: 40%;
+    }
+}
+@media(max-width:800px){
+    .footer-map .text-getting::after {
+        content: " ";
+        position: absolute;
+        right: 38%;
+    }
+}
+@media(max-width:720px){
+    nav{
+        height: 80px;
+    }
+    nav .container{
+        height: 80px;
+    }
+    .logo-picture  img{
+        width: 200px;
+
+        position: absolute;
+        top: 15px;
+    }
+    .barger img {
+        width: 40px;
+        height: 30px;
+    }
+    label img {
+
+        transform: translate(327px, 30px);
+    }
+    nav {
+        font-size: 25px;
+    }
+    .menu {
+        position: absolute;
+        top: 76px;
+        left: 81px;
+
+    }
+    .menu li {
+        width: 293px;
+
+    }
+    .seagull img{
+        width: 150px;
+    }
+    .footer-map .text-getting {
+        font-size: 50px;
+
+    }
+    .footer-map .text-getting::after {
+        content: " ";
+        position: absolute;
+        right: 40%;
+        width: 150px;
+    }
+}
+@media(max-width:520px){
+    .text-left-1 span{
+        font-size: 20px;
+    }
+    .text-right ul {
+
+        font-size: 20px;
+
+    }
+}
+@media(max-width:500px){
+    .footer-map .text-getting::after {
+        content: " ";
+        position: absolute;
+        right: 35%;
+
+    }
+    .menu li {
+        width:390px;
+
+    }
+    .menu {
+        position: absolute;
+        top: 80px;
+        left: -67px;
+        padding-left: 92px;
+
+    }
+    .menu .burgar-link {
+        margin-bottom: 41px;
+    }
+
+}

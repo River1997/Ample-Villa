@@ -14,4 +14,20 @@ class UserController extends Controller
 
         return view('admin.user.index',compact('lists'));
     }
+
+    public function create(){
+
+        return view('admin.user.create');
+    }
+
+    public function store(Request $request){
+
+        User::create([
+            'title' =>$request->title,
+            'date' => $request->date,
+            'photo' =>$path??'',
+        ]);
+
+        return redirect('admin.user.index');
+    }
 }

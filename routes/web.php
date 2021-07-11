@@ -19,20 +19,36 @@ Route::get('/', function () {
 });
 
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'FrontController@index')->name('home');
 
 Route::get('/admin/news/create', 'NewsController@create');
 
 Route::middleware(['auth', 'can:admin'])->prefix('admin')->group(function(){
 
 Route::get('/news', 'NewsController@index');
+Route::get('/news/create', 'NewsController@create');
+Route::post('/news/store', 'NewsController@store');
+Route::get('/news/edit/{id}', 'NewsController@edit');
+Route::post('/news/update/{id}', 'NewsController@update');
+Route::delete('/news/delete/{id}', 'NewsController@delete');
 
 Route::get('/user', 'UserController@index');
 Route::get('/user/create', 'UserController@create');
 Route::get('/user/update', 'UserController@update');
 Route::get('/user/delete', 'UserController@delete');
 
+Route::get('/contact_us', 'ContactUsController@index');
+Route::post('/contact_us/create', 'ContactUsController@create');
+Route::post('/contact_us/update', 'ContactUsController@update');
+Route::get('/contact_us/delete', 'ContactUsController@delete');
+
 });
+
+Route::get('/about_us', 'FrontController@about_us');
+
+Route::get('/member/register', 'FrontController@register');
+
 
 
 // Auth::routes();

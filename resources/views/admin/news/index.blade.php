@@ -32,24 +32,20 @@
                         <table id="my-datatable" class="display" style="width:100%">
                             <thead>
                                 <tr>
-                                    <th>類型</th>
                                     <th>日期</th>
                                     <th>標題</th>
                                     <th>圖片</th>
-                                    <th>內容</th>
-                                    <th>Edit</th>
+                                    <th>功能</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                {{-- @foreach ($lists as $item)
+                                @foreach ($lists as $item)
 
                                     <tr>
-                                        <td>{{ $item ->type }}</td>
-                                        <td>{{ $item ->publish_date }}</td>
                                         <td>{{ $item ->title }}</td>
+                                        <td>{{ $item ->date }}</td>
                                         <td>
-                                            <img style="width: 200px" src="{{ asset($item ->img) }}" alt=""></td>
-                                        <td>{{ $item ->content }}</td>
+                                            <img style="width: 200px" src="{{ asset($item ->photo) }}" alt=""></td>
                                         <td>
                                             <a href="{{asset('admin/news/edit')}}/{{$item ->id}}" class="btn btn-primary btn-sm">
                                                     編輯
@@ -62,17 +58,15 @@
                                         </td>
                                     </tr>
 
-                                @endforeach --}}
+                                @endforeach
 
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <th>類型</th>
                                     <th>日期</th>
                                     <th>標題</th>
                                     <th>圖片</th>
-                                    <th>內容</th>
-                                    <th>Edit</th>
+                                    <th>功能</th>
                                 </tr>
                             </tfoot>
                         </table>

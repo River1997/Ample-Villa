@@ -1,0 +1,285 @@
+.btn-group{
+    width: 70%;
+    height: 68px;
+    margin: auto;
+}
+.center{
+    text-align: center;
+    line-height: 68px;
+    margin: auto;
+}
+.title-1 {
+    color: rgb(63, 117, 147);
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin: 90px 0 70px 0;
+}
+
+.btn-group-1{
+   
+    height: 68px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 70px;
+}
+a:hover{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+.btn-group-1 a{
+    width: 400px;
+    background-color: white; 
+    border: 1px solid rgb(138,185,223); 
+    color: rgb(138,185,223); 
+    padding: 10px 24px; 
+    
+    float: left; 
+    font-size: 26px;
+}
+  
+/* .btn-group-1 a:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+
+  
+  /* Clear floats (clearfix hack) */
+/* .btn-group-1:after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+  
+  /* Add a background color on hover */
+.btn-group-1 a:hover {
+    background-color: rgb(138,185,223);
+    color: white;
+    border: 1px  rgb(138,185,223); 
+}
+
+.btn-group-1 a.active {
+    background-color: rgb(138,185,223);
+    color: white;
+    border: 1px  rgb(138,185,223); /* Green border */
+}
+/* .checked{
+    background-color: rgb(138,185,223);
+} */
+.profile-form .form-group {
+    height: 99px;
+    width: 660px;
+    margin: auto;
+}
+.profile-form .form-number {
+    width: 670px;
+    height: 99px;
+    margin: auto;
+}
+.profile-form .form-number-date {
+    width: 670px;
+    height: 99px;
+    margin: auto;
+    margin-bottom: 368px;
+
+}
+.word-1{
+    font-size: 26px;
+}
+/* .profile{
+    position: relative;
+}
+.profile::after{
+    content: " ";
+    position: absolute;
+    top: 187px;
+    right: 136px;
+    width: 1200px;
+    height: 5px;
+    background-color: rgb(218, 240, 251);
+} */
+.btn-group-1{
+    position: relative;
+}
+.btn-group-1::after{
+    content: " ";
+    position: absolute;
+    top: 736px;
+    right: 12%;
+    width: 76%;
+    height: 5px;
+    background-color: rgb(218, 240, 251);
+}
+.profile-size{
+    width: 380px;
+    height: 68px;
+}
+.button-5{
+   position: relative;
+}
+.button-5 .profile-2{
+    font-size: 36px;
+    background-color: rgb(123, 177, 224);
+    position: absolute;
+    top: -170px;
+    right: 12%;
+}
+.button-5 .profile-1{
+    font-size: 36px;
+    background-color: white;
+    position: absolute;
+    top: -170px;
+    left: 12%;
+    color:rgb(123, 177, 224) ;
+}
+@media(max-width:1450px){
+    .btn-group-1 a {
+        width: 300px;
+    }    
+}
+@media(max-width:1400px){
+    .profile-size{
+        width: 290px;
+        
+    }
+}
+@media(max-width:1140px){
+    .btn-group-1 a {
+        width: 250px;
+    }    
+}
+
+@media(max-width:970px){
+    .btn-group-1::after {
+        content: " ";
+        position: absolute;
+        top: 722px;
+        right: 8%;
+        width: 82%;
+        
+    }
+    .profile-size{
+        width: 200px;
+        
+    }
+}
+@media(max-width:900px){
+    .btn-group-1 a {
+        width: 200px;
+    }    
+}
+@media(max-width:800px){
+    .title-1 {
+       
+        font-size: 40px;
+        
+        margin: 20px 0 20px 0;
+    }
+    .profile-form .form-group {
+        width: 404px;
+    }
+    .profile-form .form-number {
+        width: 414px;
+    }
+    .profile-form .form-number-date {
+        width: 414px;
+    }
+    .profile-form .form-group {
+        height: 99px;
+    }    
+}
+@media(max-width:750px){
+    .btn-group-1 a {
+        width: 125px;
+    }   
+    .btn-group-1 {
+        height: 98px; 
+    }
+    .btn-group-1::after {
+        content: " ";
+        position: absolute;
+        top: 766px;
+        right: 8%;
+        width: 82%;
+    }    
+}
+@media(max-width:680px){
+    .profile-size{
+        width: 150px;
+        
+    }
+    .button-5 .profile-2{
+        font-size: 23px;
+        background-color: rgb(123, 177, 224);
+        position: absolute;
+        top: -170px;
+        right: 12%;
+        height: 54px;
+        
+    }
+    .button-5 .profile-1{
+        font-size: 23px;
+        background-color: white;
+        position: absolute;
+        top: -170px;
+        right: 12%;
+        height: 54px;
+    }
+}
+@media (max-width: 574px){
+    .profile-form .form-number {
+        width: 414px;
+        height: 198px;
+    }
+  
+    
+    .btn-group-1::after {
+        content: " ";
+        position: absolute;
+        top: 1019px;
+        right: 6%;
+        width: 88%;
+      
+    }
+   
+    .profile-form .form-number-date {
+        
+        margin-bottom: 408px;
+    }
+    .button-5 .profile-2 {
+        font-size: 23px;
+        background-color: rgb(123, 177, 224);
+        position: absolute;
+        top: -102px;
+        right: 6%;
+        height: 54px;
+    }
+    .button-5 .profile-1 {
+        font-size: 23px;
+        background-color: white;
+        position: absolute;
+        top: -102px;
+        left: 6%;
+        height: 54px;
+    }
+    
+}
+@media (max-width: 505px){
+    .button-5 .profile-1 {
+        font-size: 23px;
+        background-color: white;
+        position: absolute;
+        top: -102px;
+        left: 3%;
+        height: 54px;
+    }
+    .button-5 .profile-2 {
+        font-size: 23px;
+        background-color: rgb(123, 177, 224);
+        position: absolute;
+        top: -102px;
+        right: 3%;
+        height: 54px;
+    }
+}
