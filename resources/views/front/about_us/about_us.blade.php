@@ -8,7 +8,7 @@
 
 @section('css')
 
-<link rel="stylesheet" href="css/about_us.css">
+<link rel="stylesheet" href="{{ asset(("css/about_us.css")) }}">
 
 @endsection
 

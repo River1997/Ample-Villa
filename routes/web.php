@@ -14,13 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 Route::get('/', function () {
-    return view('welcome');
+    return view('front.news.index');
 });
 
 
+
 // Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/home', 'FrontController@index')->name('home');
+Route::get('/home', 'FrontController@about_us')->name('home');
 
 Route::get('/admin/news/create', 'NewsController@create');
 
@@ -48,6 +52,25 @@ Route::get('/contact_us/delete', 'ContactUsController@delete');
 Route::get('/about_us', 'FrontController@about_us');
 
 Route::get('/member/register', 'FrontController@register');
+Route::get('/member/success', 'FrontController@success');
+Route::get('/member/login', 'FrontController@login');
+Route::get('/member/profile-1', 'FrontController@profile1');
+Route::get('/member/profile-2', 'FrontController@profile2');
+Route::get('/member/reservation-1', 'FrontController@reservatio1');
+Route::get('/member/reservation-2', 'FrontController@reservatio2');
+Route::get('/member/connection-1', 'FrontController@connection1');
+
+
+Route::get('/rent', 'FrontController@rent');
+Route::get('/rent-room', 'FrontController@rentroom');
+Route::get('/rent-room-2', 'FrontController@rentroom2');
+Route::get('/rent-pay', 'FrontController@rentpay');
+Route::get('/rent-detail', 'FrontController@rentdetail');
+Route::get('/rent-success', 'FrontController@rentsuccess');
+
+Route::get('/landscape', 'FrontController@landscape');
+
+Route::get('/service/service-equipment', 'FrontController@serviceequipment');
 
 
 

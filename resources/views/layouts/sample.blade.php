@@ -31,13 +31,13 @@
                     </label>
                     <input type="checkbox" id="burger-menu">
                     <ul class="menu">
-                        <li class="burgar-link  logoin"><a href="">會員登入/註冊</a></li>
+                        <li class="burgar-link  logoin"><a href="{{ asset('/member/register') }}">會員登入/註冊</a></li>
                         <li class="burgar-link"><a href="">關於Ample Villa</a></li>
-                        <li class="burgar-link"><a href="">最新消息</a></li>
-                        <li class="burgar-link"><a href="">房型一覽</a></li>
-                        <li class="burgar-link"><a href="">服務及設施</a></li>
-                        <li class="burgar-link"><a href="">附近風景</a></li>
-                        <li class="burgar-link room"><a href="">線上訂房</a></li>
+                        <li class="burgar-link"><a href="{{ asset('/news/index') }}">最新消息</a></li>
+                        <li class="burgar-link"><a href="{{ asset('/member/register') }}">房型一覽</a></li>
+                        <li class="burgar-link"><a href="{{ asset('/servive/service-equipment') }}">服務及設施</a></li>
+                        <li class="burgar-link"><a href="{{ asset('/landscape') }}">附近風景</a></li>
+                        <li class="burgar-link room"><a href="{{ asset('/rent') }}">線上訂房</a></li>
 
                     </ul>
                 </div>
