@@ -72,26 +72,28 @@
         </div> -->
         <div class="container2">
             <div class="row" style="position: relative;width: 100%;margin: unset;padding: unset;overflow: hidden;">
-                <div class="col-12" style="padding: unset;margin: unset;">
-                    <!-- <img alt="gallery" class="w-full object-cover h-full object-center block"
-                        src="https://dummyimage.com/501x301" id="videoplay"> -->
-                    <video src="./img-index/test.mp4" loop autoplay id="myVideo"></video>
+                <div class="videobox">
 
 
+                    <iframe
+                        src="https://www.youtube.com/embed/4AbN68ZgSm4?autoplay=1&mute=1&rel=0&loop=1&controls=0&playlist=4AbN68ZgSm4"
+                        frameborder="0" allowfullscreen="true"></iframe>
+
+                    <!-- https://www.youtube.com/embed/4AbN68ZgSm4?rel=0&autoplay=1&mute=1&oop=1&playlist=4AbN68ZgSm4 -->
                 </div>
                 <!-- <div class="video-box">
                     <video src="./img-index/test.mp4" loop autoplay id="myVideo"></video>
 
                 </div> -->
                 <div class="col-12" id="video-logo">
-                    <img src="./img-index/影片-logo.png" alt="">
+                    <img src="{{ asset("img-index/影片-logo.png") }}" alt="">
                 </div>
                 <div class="col-12" id="video-text">
-                    <img src="./img-index/影片-文字.png" alt="">
+                    <img src="{{ asset("img-index/影片-文字.png") }}" alt="">
                 </div>
                 <div class="row" style="padding: unset;margin:unset;">
                     <div class="col-4" id="inside-logo">
-                        <img src="./img-index/地圖-指針圖案.png" alt="">
+                        <img src="{{ asset("img-index/地圖-指針圖案.png") }}" alt="">
                     </div>
                 </div>
 
@@ -104,7 +106,7 @@
     <div class="main2">
         <div class="row" style="padding: unset;margin:unset;">
             <div class="col-4" id="inside-logo2">
-                <img src="./img-index/地圖-指針圖案.png" alt="">
+                <img src="{{ asset("img-index/地圖-指針圖案.png") }}" alt="">
             </div>
         </div>
         <div class="row" style="padding: unset;margin: unset;position:relative">
@@ -121,12 +123,12 @@
                         <div class="col-xl-3"></div>
                         <div class="col-xl-6 newspic" style="position: relative;display: flex;"><img alt="gallery"
                                 class="w-full object-cover h-full object-center block"
-                                src="https://dummyimage.com/501x301">
-                            <div class="row">
-                                <div class="col-3" style="padding: unset;">
+                                src="{{ asset("img-index/最新消息-圖1.png") }}">
+
+                                <div class="day">
                                     <span id="mday"></span>
                                 </div>
-                            </div>
+
                         </div>
 
                     </div>
@@ -139,12 +141,12 @@
                         <div class="col-xl-6"></div>
                         <div class="col-xl-6 newspic" style="position: relative;display: flex;"><img alt="gallery"
                                 class="w-full object-cover h-full object-center block"
-                                src="https://dummyimage.com/501x301">
-                            <div class="row">
-                                <div class="col-3" style="padding: unset;">
+                                src="{{ asset("img-index/最新消息-圖2.png") }}">
+
+                                <div class="day" style="padding: unset;">
                                     <span id="mday2"></span>
                                 </div>
-                            </div>
+
                         </div>
 
 
@@ -156,12 +158,12 @@
                         <div class="col-xl-3"></div>
                         <div class="col-xl-6 newspic" style="position: relative;display: flex;"><img alt="gallery"
                                 class="w-full object-cover h-full object-center block"
-                                src="https://dummyimage.com/501x301">
-                            <div class="row">
-                                <div class="col-3" style="padding: unset;">
+                                src="{{ asset("img-index/最新消息-圖3.png") }}">
+
+                                <div class="day" style="padding: unset;">
                                     <span id="mday3"></span>
                                 </div>
-                            </div>
+
                         </div>
 
                     </div>
@@ -171,15 +173,15 @@
                         <div class="col-xl-9" id="news-4">
                             三月是雙魚和牡羊朋友的大日子
                         </div>
-                        <div class="col-xl-6"></div>
+                        <div class="col-xl-6" ></div>
                         <div class="col-xl-6 newspic" style="position: relative;display: flex;"><img alt="gallery"
                                 class="w-full object-cover h-full object-center block"
-                                src="https://dummyimage.com/501x301">
-                            <div class="row">
-                                <div class="col-3" style="padding: unset;">
+                                src="{{ asset("img-index/最新消息-圖4.png") }}">
+
+                                <div class="day" style="padding: unset;">
                                     <span id="mday4"></span>
                                 </div>
-                            </div>
+
                         </div>
 
 
@@ -189,14 +191,17 @@
 
             </div>
             <div class="row" id="arrow">
-                <div class="col-8">
+                <div class="col-8" style="padding: unset;">
                     <a href="" style="text-decoration: none;color: white;">
-                        <img src="./img-index/內文-指標1.png" alt=""></a>
+                        <img src="{{asset("img-index/內文-指標1.png") }}" alt="">
+                        <img src="{{ asset("img-index/內文-指標2.png") }}" alt="">
+                    </a>
                 </div>
-                <div class="col-3" id="more">More</div>
+                <div class="col-3" style="padding: unset;">
+                    <div id="more">More</div>
+                </div>
 
             </div>
-
         </div>
         <div class="row" style="margin: unset;padding-top: 110px;">
             <div class="container2" style="position: relative;">
@@ -212,13 +217,13 @@
             </div>
 
         </div>
-        <div class="row" style="position:relative;margin: unset;margin-top: 40px;">
+        {{-- <div class="row" style="position:relative;margin: unset;margin-top: 40px;">
             <div class="container3">
-                <div class="col-12" style="padding: unset;background-color: rgb(223, 188, 223);padding: 40px;">
+                <div class="col-12 mapbox">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1806.200026829416!2d121.86017658530668!3d25.122162344672223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8b917afc400df58b!2sAmple%20Villa!5e0!3m2!1szh-TW!2stw!4v1625465980639!5m2!1szh-TW!2stw"
                         width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <!-- <iframe src="htimg-index/tps://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14449.620098497267!2d121.8613609!3d25.1219942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8b917afc400df58b!2sAmple%20Villa!5e0!3m2!1szh-TW!2stw!4v1625465632875!5m2!1szh-TW!2stw" width="100%" height="900" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+
                 </div>
             </div>
             <div class="col-4" style="position: absolute;top: 600px;left: -8rem;"><img src="./img-index/地圖-指針圖案.png"
@@ -244,8 +249,8 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="col-4" style="padding: unset;"></div> -->
-        </div>
+
+        </div> --}}
     </div>
     <footer></footer>
 
@@ -287,6 +292,40 @@
                 document.getElementById("mday4").innerHTML = yy + "." + mm + "." + dd;
             }
         }
+
+        function codefans() {
+            var box = document.getElementById("video-logo");
+            var box2 = document.getElementById("video-text");
+            box.style.display = "none";
+            box2.style.display = "none"
+        }
+        function codefans2() {
+            var box = document.getElementById("video-logo");
+            var box2 = document.getElementById("video-text");
+            box.style.display = "block";
+            box2.style.display = "block"
+        }
+        function codefans3() {
+            var box = document.getElementById("video-logo");
+            var box2 = document.getElementById("video-text");
+            box.style.display = "none";
+            box2.style.display = "none"
+        }
+        setTimeout("codefans()", 0000);//3秒
+        setTimeout("codefans2()", 5500);
+        setTimeout("codefans()", 6700);
+        setTimeout("codefans2()", 9500);
+        setTimeout("codefans3()", 11000);
+        setTimeout("codefans2()", 14000);
+        setTimeout("codefans()", 31500);
+        setTimeout("codefans()", 0000);//3秒
+        setTimeout("codefans2()", 38500);
+        setTimeout("codefans()", 40000);
+        setTimeout("codefans2()", 42500);
+        setTimeout("codefans3()", 44500);
+        setTimeout("codefans2()", 47000);
+        setTimeout("codefans()", 65500);
+
 
     </script>
 
