@@ -68,30 +68,33 @@
                 <ul class="menu">
                     {{-- <li class="burgar-link  logoin"><a href="{{ asset('/member/register') }}">會員登入/註冊</a></li> --}}
                     @guest
-                    <li class="nav-item">
-                        <a href="{{ asset('/member/login') }}">登入</a>
+                    <li class="burgar-link">
+                        <a href="{{ asset('/member/login') }}">會員登入/註冊</a>
                     </li>
                     @if (Route::has('register'))
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a href="{{ asset('/member/register') }}">/註冊</a>
-                    </li>
+                    </li> --}}
                     @endif
                     @else
-                    <li class="nav-item dropdown">
+                    <li class="burgar-link">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 0px; margin-bottom:30px" v-pre>
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            style="padding: 0px; margin-bottom:30px" v-pre>
                             {{ Auth::user()->name }} <span class="caret"></span>
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                {{ __('Logout') }}
+                            {{-- <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();">
+                            {{ __('Logout') }}
                             </a>
 
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
-                            </form>
+                            </form> --}}
+
+                            <a class="dropdown-item" href="">會員專區</a>
                         </div>
                     </li>
                     @endguest
@@ -101,6 +104,25 @@
                     <li class="burgar-link"><a href="{{ asset('/servive/service-equipment') }}">服務及設施</a></li>
                     <li class="burgar-link"><a href="{{ asset('/landscape') }}">附近風景</a></li>
                     <li class="burgar-link room"><a href="{{ asset('/rent') }}">線上訂房</a></li>
+                    <li class="burgar-logout">
+                        @guest
+
+                        @if (Route::has('register'))
+
+                        @endif
+                        @else
+                        <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();" style="padding: 0px">
+                            登出
+                        </a>
+
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+                        @endguest
+
+                    </li>
+
                 </ul>
             </div>
         </div>
