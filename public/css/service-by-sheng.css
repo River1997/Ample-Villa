@@ -1,0 +1,1132 @@
+
+
+ @import url('http://fonts.cdnfonts.com/css/century-schoolbook');
+
+ body {
+     margin: 0;
+     line-height: unset;
+
+
+ }
+
+ * {
+
+     box-sizing: border-box;
+ }
+
+ nav {
+     width: 100vw;
+     height: 100px;
+     position: fixed;
+     z-index: 30;
+     background-color: white;
+ }
+
+
+
+ .container2 {
+     width: 90%;
+     margin: auto;
+
+ }
+
+ .container3 {
+     width: 85%;
+     margin: auto;
+ }
+
+ nav .col-2 img {
+     width: 250px;
+     height: 70px;
+
+ }
+
+ #burger {
+     line-height: 70px;
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     right: 0px;
+     padding: unset;
+ }
+
+ #burger-btn {
+     font-size: 2rem;
+     color: royalblue;
+     padding: unset;
+
+ }
+
+ .rowjustify {
+     justify-content: space-between;
+ }
+
+ .discriptforservice {
+     height: 1150px;
+     width: 34.72%;
+ }
+
+ .rowhight {
+     height: 550px;
+     position: relative;
+     justify-content: center;
+ }
+
+ .textforservice {
+     font-size: 4rem;
+     color: rgb(138, 185, 223);
+     font-family: 微軟正黑體;
+     writing-mode: vertical-lr;
+     text-decoration: overline;
+
+ }
+
+ .textforservice:nth-child(1) {
+     position: absolute;
+     bottom: 13%;
+     left: 27%;
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(2) {
+     position: absolute;
+     bottom: 40%;
+
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(3) {
+     position: absolute;
+     bottom: 55%;
+     left: 57%;
+
+
+
+
+
+ }
+
+ .textforservice2 {
+     font-size: 1.5rem;
+     font-family: 微軟正黑體;
+ }
+
+ .picforsevice {
+     height: 1150px;
+     width: 57.87%;
+     /* background-color: blue; */
+     justify-content: flex-end;
+     position: relative;
+ }
+ .pic1{
+     width: 80%;
+     height: 0;
+     position: relative;
+     padding-bottom: 55%;
+     /* 原始版長800 寬550 長寬比0.6875 最終比68.75*0.8 = 55 */
+ }
+
+ .pic1 img {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left:27.84%;
+     /* 左邊版34.72% 右邊版57.84% 間隔7.41% 所以左推100-34.72+7.41 */
+
+ }
+ .pic2{
+     width: 40%;
+     height: 0;
+     position: relative;
+     padding-bottom: 65%;
+     /* 長400 寬650 長寬比1.625 最終比1.625*0.4=0.65*/
+
+ }
+
+ .pic2 img {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     left: 0;
+     top:-36.15%;
+     /* 上推235px  235/650 */
+ }
+ .pic3{
+     width: 42%;
+     height: 0;
+     position: relative;
+     padding-bottom: 42%;
+ }
+
+ .pic3 img {
+     width: 100%;
+     height: 100;
+     position: absolute;
+     bottom: 120%;
+     left: 145%;
+ }
+
+ .detailforservice {
+     margin-top: 180px;
+     position: relative;
+     width: 100%;
+
+
+ }
+
+ .pic4 img {
+     width: 73%;
+     height: 720px;
+ }
+
+ .detailforservice .pictable {
+     width: 1370px;
+     height: 850px;
+     z-index: 3;
+     background-color: white;
+     position: absolute;
+     right: 0;
+     top: 30.5%;
+     display: flex;
+     justify-content: space-between;
+
+
+ }
+
+ .posi {
+     width: 100%;
+     height: 100%;
+     position: relative;
+ }
+
+ #wehave {
+     width: 620px;
+     height: 150px;
+     font-size: 121px;
+     color: rgb(138, 185, 223);
+     text-align: center;
+     /* text-decoration: underline; */
+     font-family: 'Century Schoolbook', sans-serif;
+     transform: rotate(270deg);
+     position: absolute;
+     border-bottom: 5px solid rgb(138, 185, 223);
+     left: calc(-37% + 310px);
+     top: calc(50% - 92.5px);
+
+ }
+
+ #servicebox {
+     width:1104px;
+     height: 540px;
+     position: absolute;
+     right: 0px;
+     top: 70px;
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .formargin{
+     width: 180px;
+
+     margin: 0px calc(calc(100% - 720px) / 4) 0 0;
+
+
+
+ }
+ .formargin .row:hover{
+     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .25);
+transform: translate(0,-5px);
+transition-delay: 0s !important;
+
+/* transition: all .2s ease-in-out; */
+ }
+
+ .textimg {
+     display: flex;
+     justify-content: center;
+
+
+ }
+
+ .textimg img {
+     width: 150px;
+     height: 150px;
+     margin:15px 0 0 0;
+ }
+
+ .sertext {
+     font-size: 30px;
+     text-align: center;
+     margin-bottom: 15px;
+ }
+
+ .detailforservice .piactableblue {
+     width: 1370px;
+     height: 850px;
+     z-index: 1;
+     background-color: rgb(138, 185, 223);
+     position: absolute;
+     right: 50px;
+     top: calc(30.5% + 50px);
+
+ }
+ .textimg img {
+     width: 150px;
+     height: 150px;
+
+ }
+
+ .pic5 img {
+     width: 100%;
+     height: 720px;
+     opacity: 0.3;
+ }
+ @media(max-width:1700px){
+     .detailforservice {
+     margin-top: 50px;
+     position: relative;
+     width: 100%;
+
+
+ }
+ }
+ @media(max-width:1584px){
+     .detailforservice {
+     margin-top: 20px;
+     position: relative;
+     width: 100%;
+
+
+ }
+ .rowhight {
+     height: 400px;
+     position: relative;
+     justify-content: center;
+ }
+ .discriptforservice {
+     height: 850px;
+     width: 34.72%;
+ }
+ .picforsevice {
+     height: 850px;
+     width: 57.87%;
+     /* background-color: blue; */
+     justify-content: flex-end;
+     position: relative;
+ }
+ .textforservice {
+     font-size: 4rem;
+     color: rgb(138, 185, 223);
+     font-family: 微軟正黑體;
+     writing-mode: vertical-lr;
+     text-decoration: overline;
+
+ }
+
+ .textforservice:nth-child(1) {
+     position: absolute;
+     bottom: 10%;
+     left: 24%;
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(2) {
+     position: absolute;
+     bottom: 42%;
+
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(3) {
+     position: absolute;
+     bottom: 60%;
+     left: 60%;
+
+
+
+
+
+ }
+ }
+ @media(max-width:1435px){
+     .detailforservice .pictable {
+     width: 1110px;
+     height: 850px;
+     z-index: 3;
+     background-color: white;
+     position: absolute;
+     right: 0;
+     top: 30.5%;
+     display: flex;
+     justify-content: space-between;
+
+
+ }
+ .detailforservice .piactableblue {
+     width: 1110px;
+     height: 850px;
+     z-index: 1;
+     background-color: rgb(138, 185, 223);
+     position: absolute;
+     right: 50px;
+     top: calc(30.5% + 50px);
+
+ }
+     #servicebox {
+     width:904px;
+     height: 540px;
+     position: absolute;
+     right: 0px;
+     top: 90px;
+ }
+ #wehave {
+     width: 620px;
+     height: 155px;
+     font-size: 121px;
+     color: rgb(138, 185, 223);
+     text-align: center;
+     /* text-decoration: underline; */
+     font-family: 'Century Schoolbook', sans-serif;
+     transform: rotate(270deg);
+     position: absolute;
+     border-bottom: 5px solid rgb(138, 185, 223);
+     left: -220px;
+     top: calc(50% - 92.5px);
+
+ }
+
+
+ }
+ @media(max-width:1319px){
+     .detailforservice {
+     margin-top: 20px;
+     position: relative;
+     width: 100%;
+
+
+ }
+ .rowhight {
+     height: 300px;
+     position: relative;
+     justify-content: center;
+ }
+ .discriptforservice {
+     height: 850px;
+     width: 34.72%;
+ }
+ .picforsevice {
+     height: 850px;
+     width: 57.87%;
+     /* background-color: blue; */
+     justify-content: flex-end;
+     position: relative;
+ }
+ .textforservice {
+     font-size: 3rem;
+     color: rgb(138, 185, 223);
+     font-family: 微軟正黑體;
+     writing-mode: vertical-lr;
+     text-decoration: overline;
+
+ }
+
+ .textforservice:nth-child(1) {
+     position: absolute;
+     bottom: 10%;
+     left: 24%;
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(2) {
+     position: absolute;
+     bottom: 42%;
+
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(3) {
+     position: absolute;
+     bottom: 60%;
+     left: 60%;
+
+
+
+
+
+ }
+ .textforservice2 {
+     font-size: 1.4rem;
+     font-family: 微軟正黑體;
+ }
+
+ }
+ @media(max-width:1170px){
+     #wehave {
+     width: 600px;
+     height: 145px;
+     font-size: 100px;
+     color: rgb(138, 185, 223);
+     text-align: center;
+     /* text-decoration: underline; */
+     font-family: 'Century Schoolbook', sans-serif;
+     transform: rotate(270deg);
+     position: absolute;
+     border-bottom: 5px solid rgb(138, 185, 223);
+     left: calc(-37% + 100px);
+     top: calc(50% - 92.5px);
+
+ }
+ .detailforservice .pictable {
+     width: 900px;
+     height: 850px;
+     z-index: 3;
+     background-color: white;
+     position: absolute;
+     right: 0;
+     top: 30.5%;
+     display: flex;
+     justify-content: space-between;
+
+
+ }
+ .detailforservice .piactableblue {
+     width: 900px;
+     height: 850px;
+     z-index: 1;
+     background-color: rgb(138, 185, 223);
+     position: absolute;
+     right: 50px;
+     top: calc(30.5% + 50px);
+
+ }
+ .sertext {
+     font-size: 22px;
+     text-align: center;
+ }
+ #servicebox {
+     width:704px;
+     height: 540px;
+     position: absolute;
+     right: 0px;
+     top: 110px;
+ }
+ .textimg img {
+     width: 120px;
+     height: 120px;
+ }
+
+ .formargin{
+     width: 140px;
+     margin: 30px calc(calc(100% - 560px) / 4) 0 0;
+
+
+ }
+
+
+
+
+ }
+ @media(max-width:984px){
+
+ .detailforservice {
+     margin-top: 20px;
+     position: relative;
+     width: 100%;
+
+
+ }
+ .rowhight {
+     height: 270px;
+     position: relative;
+     justify-content: center;
+ }
+ .discriptforservice {
+     height: 650px;
+     width: 34.72%;
+ }
+ .picforsevice {
+     height: 650px;
+     width: 57.87%;
+     /* background-color: blue; */
+     justify-content: flex-end;
+     position: relative;
+ }
+ .textforservice {
+     font-size: 3rem;
+     color: rgb(138, 185, 223);
+     font-family: 微軟正黑體;
+     writing-mode: vertical-lr;
+     text-decoration: overline;
+
+ }
+
+ .textforservice:nth-child(1) {
+     position: absolute;
+     bottom: 7%;
+     left: 22%;
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(2) {
+     position: absolute;
+     bottom: 42%;
+
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(3) {
+     position: absolute;
+     bottom: 60%;
+     left: 60%;
+
+
+
+
+
+ }
+ .textforservice2 {
+     font-size: 1.1rem;
+     font-family: 微軟正黑體;
+ }
+
+ }
+ @media(max-width:962px){
+     #wehave {
+     width: 480px;
+     height: 120px;
+     font-size: 90px;
+     color: rgb(138, 185, 223);
+     text-align: center;
+     /* text-decoration: underline; */
+     font-family: 'Century Schoolbook', sans-serif;
+     transform: rotate(270deg);
+     position: absolute;
+     border-bottom: 5px solid rgb(138, 185, 223);
+     left: calc(-37% + 80px);
+     top: calc(50% - 92.5px);
+
+ }
+ .detailforservice .pictable {
+     width:700px;
+     height: 650px;
+     z-index: 3;
+     background-color: white;
+     position: absolute;
+     right: 0;
+     top: 30.5%;
+     display: flex;
+     justify-content: space-between;
+
+
+ }
+ .detailforservice .piactableblue {
+     width: 700px;
+     height: 650px;
+     z-index: 1;
+     background-color: rgb(138, 185, 223);
+     position: absolute;
+     right: 50px;
+     top: calc(30.5% + 50px);
+
+ }
+     #servicebox {
+     width:524px;
+     height: 540px;
+     position: absolute;
+     right: 0px;
+     top: 40px;
+ }
+ .textimg img {
+     width: 80px;
+     height: 80px;
+ }
+ .sertext {
+     font-size: 22px;
+     text-align: center;
+ }
+
+
+
+ .formargin{
+     width: 90px;
+     margin: 30px calc(calc(100% - 360px) / 4) 0 0;
+
+
+ }
+ .pic5{
+     width: 100%;
+     height: 520px;
+
+ }
+ .pic5 img{
+     width: 100%;
+     height: 100%;
+
+     opacity: 0.3;
+ }
+ .rowhight {
+     height: 240px;
+     position: relative;
+     justify-content: center;
+ }
+ .textforservice {
+     font-size: 2.5rem;
+     color: rgb(138, 185, 223);
+     font-family: 微軟正黑體;
+     writing-mode: vertical-lr;
+     text-decoration: overline;
+
+ }
+
+ .textforservice:nth-child(1) {
+     position: absolute;
+     bottom: 7%;
+     left: 22%;
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(2) {
+     position: absolute;
+     bottom: 42%;
+
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(3) {
+     position: absolute;
+     bottom: 60%;
+     left: 60%;
+
+
+
+
+
+ }
+ .textforservice2 {
+     font-size: 1rem;
+     font-family: 微軟正黑體;
+ }
+ .discriptforservice {
+     height: 600px;
+     width: 34.72%;
+ }
+ .picforsevice {
+     height: 600px;
+     width: 57.87%;
+     /* background-color: blue; */
+     justify-content: flex-end;
+     position: relative;
+ }
+
+
+
+ }
+ @media(max-width:768px){
+     .textforservice {
+     font-size: 36px;
+     color: rgb(138, 185, 223);
+     font-family: 微軟正黑體;
+     writing-mode: vertical-lr;
+     text-decoration: overline;
+
+ }
+ .rowhight{
+     height: 150px;
+ }
+     .textforservice:nth-child(1) {
+     position: absolute;
+     top: 20px;
+     left: 27%;
+     bottom: unset;
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(2) {
+     position: absolute;
+     top: 37px;
+     bottom: unset;
+
+
+
+
+
+
+ }
+
+ .textforservice:nth-child(3) {
+     position: absolute;
+     top: 20px;
+     left: 57%;
+     bottom: unset;
+
+
+
+
+
+ }
+ .textforservice2 {
+     font-size: 24px;
+     font-family: 微軟正黑體;
+ }
+ .rowjustify {
+    flex-wrap: wrap;
+ }
+
+ .discriptforservice {
+     height: 440px;
+     width: 100%;
+ }
+ .picforsevice {
+     height: 750px;
+     width: 100%;
+     /* background-color: blue; */
+     justify-content: flex-end;
+     position: relative;
+ }
+ .pic1{
+     width: 80%;
+     height: 0;
+     position: relative;
+     padding-bottom: 55%;
+     /* 原始版長800 寬550 長寬比0.6875 最終比68.75*0.8 = 55 */
+ }
+
+ .pic1 img {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left:27.84%;
+     /* 左邊版34.72% 右邊版57.84% 間隔7.41% 所以左推100-34.72+7.41 */
+
+ }
+ .pic2{
+     width: 40%;
+     height: 0;
+     position: relative;
+     padding-bottom: 65%;
+     /* 長400 寬650 長寬比1.625 最終比1.625*0.4=0.65*/
+
+ }
+
+ .pic2 img {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     left: 0;
+     top:-36.15%;
+     /* 上推235px  235/650 */
+ }
+ .pic3{
+     width: 42%;
+     height: 0;
+     position: relative;
+     padding-bottom: 42%;
+ }
+
+ .pic3 img {
+     width: 100%;
+     height: 100;
+     position: absolute;
+     bottom: 120%;
+     left: 145%;
+ }
+ .detailforservice {
+     margin-top: 50px;
+     position: relative;
+     width: 100%;
+
+
+ }
+ .pic4 img {
+     width: 74%;
+     height: 262px;
+ }
+ #wehave {
+     width: 1200px;
+     height: 100px;
+     font-size: 80px;
+     color: rgb(138, 185, 223);
+     text-align: center;
+     /* text-decoration: underline; */
+     font-family: 'Century Schoolbook', sans-serif;
+     transform: rotate(270deg);
+     position: absolute;
+     border-bottom: 3px solid rgb(138, 185, 223);
+     left: -550px;
+     top: 46%;
+
+ }
+
+ .detailforservice .pictable {
+     width:82.6%;
+     height: 1400px;
+     z-index: 3;
+     background-color: white;
+     position: absolute;
+     right: 0;
+     top: 15.5%;
+     display: flex;
+     justify-content: space-between;
+
+
+ }
+ .detailforservice .piactableblue {
+     width: 82.6%;
+     height: 1400px;
+     z-index: 1;
+     background-color: rgb(138, 185, 223);
+     position: absolute;
+     right: 25px;
+     top: calc(15.5% + 25px);
+
+ }
+
+ .sertext {
+     font-size: 22px;
+     text-align: center;
+ }
+ #servicebox {
+     width:404px;
+     height: 840px;
+     position: absolute;
+     right: 0px;
+     top: 60px;
+ }
+ .textimg img {
+     width: 150px;
+     height: 150px;
+ }
+
+ .formargin{
+     width: 170px;
+     margin: 30px calc(calc(100% - 340px) / 4) 0 0;
+
+
+ }
+ .pic5 img {
+     width: 100%;
+     height: 1000px;
+     opacity: 0.3;
+ }
+
+
+ }
+
+ @media(max-width:642px){
+     .detailforservice .pictable {
+     width:96%;
+     height: 1400px;
+     z-index: 3;
+     background-color: white;
+     position: absolute;
+     right: 0;
+     top: 15.5%;
+     display: flex;
+     justify-content: space-between;
+
+
+ }
+ .detailforservice .piactableblue {
+     width: 96%;
+     height: 1400px;
+     z-index: 1;
+     background-color: rgb(138, 185, 223);
+     position: absolute;
+     right: 25px;
+     top: calc(15.5% + 25px);
+
+ }
+ .picforsevice {
+     height: 650px;
+     width: 100%;
+     /* background-color: blue; */
+     justify-content: flex-end;
+     position: relative;
+ }
+
+ }
+ @media(max-width:540px){
+
+     .sertext {
+     font-size: 22px;
+     text-align: center;
+ }
+ #servicebox {
+     width:304px;
+     height: 840px;
+     position: absolute;
+     right: 0px;
+     top: 60px;
+ }
+ .textimg img {
+     width: 120px;
+     height: 120px;
+ }
+
+ .formargin{
+     width: 140px;
+     margin: 30px calc(calc(100% - 280px) / 4) 0 0;
+
+
+ }
+ #wehave {
+     width: 1050px;
+     height: 100px;
+     font-size: 80px;
+     color: rgb(138, 185, 223);
+     text-align: center;
+     /* text-decoration: underline; */
+     font-family: 'Century Schoolbook', sans-serif;
+     transform: rotate(270deg);
+     position: absolute;
+     border-bottom: 3px solid rgb(138, 185, 223);
+     left: -480px;
+     top: 40%;
+
+ }
+ .picforsevice {
+     height: 550px;
+     width: 100%;
+     /* background-color: blue; */
+     justify-content: flex-end;
+     position: relative;
+ }
+ }
+ @media(max-width:460px){
+     .rowhight{
+         height: 130px;
+     }
+     .textforservice {
+     font-size: 2rem;
+
+
+ }
+ .textforservice2 {
+     font-size: 1.3rem;
+     font-family: 微軟正黑體;
+ }
+ .picforsevice{
+     height: 430px;
+ }
+
+ .sertext {
+     font-size: 22px;
+     text-align: center;
+ }
+ #servicebox {
+     width:65%;
+     height: 840px;
+     position: absolute;
+     right: 0px;
+     top: 60px;
+ }
+ .textimg img {
+     width: 90px;
+     height: 90px;
+ }
+
+ .formargin{
+     width: 90px;
+     margin: 30px calc(calc(100% - 190px) / 4) 0 0;
+
+
+ }
+ #wehave {
+     width: 930px;
+     height: 80px;
+     font-size: 55px;
+     color: rgb(138, 185, 223);
+     text-align: center;
+     /* text-decoration: underline; */
+     font-family: 'Century Schoolbook', sans-serif;
+     transform: rotate(270deg);
+     position: absolute;
+     border-bottom: 3px solid rgb(138, 185, 223);
+     left: -420px;
+     top: 46%;
+
+ }
+ .detailforservice .pictable {
+     width:96%;
+     height: 1100px;
+     z-index: 3;
+     background-color: white;
+     position: absolute;
+     right: 0;
+     top: 15.5%;
+     display: flex;
+     justify-content: space-between;
+
+
+ }
+ .detailforservice .piactableblue {
+     width: 96%;
+     height: 1100px;
+     z-index: 1;
+     background-color: rgb(138, 185, 223);
+     position: absolute;
+     right: 25px;
+     top: calc(15.5% + 25px);
+
+ }
+ .pic5 img {
+     width: 100%;
+     height: 1050px;
+     opacity: 0.3;
+ }
+
+
+ }
+ @media(max-width:380px){
+     .picforsevice{
+     height: 370px;
+ }
+
+ }
+
