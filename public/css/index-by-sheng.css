@@ -1,0 +1,1333 @@
+
+@import url('http://fonts.cdnfonts.com/css/century-schoolbook');
+
+body {
+    margin: 0;
+    line-height: unset;
+
+
+}
+
+* {
+
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    z-index: 30;
+    background-color: white;
+}
+
+
+
+.container2 {
+    width: 89.53%;
+    margin: auto;
+
+}
+
+.container3 {
+    width: 85%;
+    margin: auto;
+}
+
+nav .col-2 img {
+    width: 250px;
+    height: 70px;
+
+}
+
+#burger {
+    line-height: 70px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    padding: unset;
+}
+
+#burger-btn {
+    font-size: 2rem;
+    color: royalblue;
+    padding: unset;
+
+}
+
+#bannar2 {
+    padding-top: 90px;
+    min-height: 736px;
+}
+
+/* .bannar{
+    height: 60vh;
+} */
+
+
+/* .videobox {
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+} */
+
+
+
+#myVideo {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+}
+
+#video-logo {
+    position: absolute;
+    top: 45%;
+    text-align: center;
+
+
+
+
+}
+
+#video-logo img {
+    width: 363px;
+    height: 86px;
+}
+
+#video-text {
+    position: absolute;
+    top: 60%;
+    text-align: center;
+
+
+}
+
+#videoplay {
+    width: 100%;
+    height: 968px;
+}
+
+#video-text img {
+    width: 640px;
+    height: 92px;
+}
+
+.videobox {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.videobox iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main2 {
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main2 .container2 {
+    padding-top: 80px;
+}
+
+#inside-logo {
+    margin: unset;
+    padding: unset;
+    position: absolute;
+    right: -9rem;
+    bottom: -350px;
+    z-index: 3;
+}
+
+#inside-logo2 {
+    margin: unset;
+    padding: unset;
+    position: absolute;
+    right: -7rem;
+    top: -400px;
+    z-index: 3;
+}
+
+#news-backgro {
+    background-color: rgb(138, 185, 223);
+    opacity: 0.8;
+    background-image: url(./img-index/關於我們-底圖-大.png);
+    padding: unset;
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-attachment: scroll;
+
+}
+
+#news-backgro::-webkit-scrollbar{
+    background-color: rgb(138, 185, 223);
+}
+
+
+.main2 #news {
+    color: white;
+    font-size: 5vw;
+    /* font-family: 'Century Schoolbook', sans-serif; */
+    font-family: 微軟正黑體;
+    position: absolute;
+    top: 90px;
+    left: 9rem;
+    z-index: 1;
+    opacity: 0.5;
+
+}
+
+.main2 #news-eng {
+    color: white;
+    font-size: 200px;
+    font-family: 'Century Schoolbook', sans-serif;
+    position: absolute;
+    top: 180px;
+    left: 9rem;
+    z-index: 1;
+    opacity: 0.5;
+    transform: scale(1, 1.5);
+
+
+}
+
+#news-box1,
+#news-box3 {
+    padding-top: 240px;
+    position: relative;
+
+}
+
+#news-box2,
+#news-box4 {
+    padding-top: 240px;
+    position: relative;
+}
+
+
+
+#news-1,
+#news-3 {
+    font-size: 40px;
+    color: white;
+    font-family: 新細明體;
+    text-align: left;
+    margin-top: 55vh;
+    position: absolute;
+    left: 7%;
+    z-index: 1;
+
+}
+
+#news-2,
+#news-4 {
+    font-size: 40px;
+    color: white;
+    font-family: 新細明體;
+    text-align: left;
+    margin-top: 55vh;
+    position: absolute;
+    left: 32%;
+    z-index: 1;
+}
+.newspic{
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 50%;
+}
+
+.newspic img {
+    width: 100%;
+    height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+
+
+}
+
+#mday,
+#mday2,
+#mday3,
+#mday4 {
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 6rem;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 40%;
+    left: 66%;
+    opacity: 0.7;
+    color: white;
+}
+
+#arrow {
+    margin: unset;
+    position: absolute;
+    top: 1100px;
+
+}
+
+#arrow .col-8 {
+    position: relative;
+}
+
+#arrow img:nth-child(1) {
+    width: 1200px;
+    height: 20px;
+
+    position: absolute;
+    left: -6rem;
+    top: 0%;
+
+}
+
+#arrow img:nth-child(2) {
+    width: 5px;
+    height: 40px;
+    position: absolute;
+    left: 500px;
+    top: 0px;
+}
+
+
+#arrow:hover {
+
+    transform: translateX(100px);
+    transition: 1s;
+}
+#arrow .col-3{
+    position: relative;
+}
+
+
+#more {
+    color: white;
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 4rem;
+    margin-left: 620px;
+    position: absolute;
+    left: 500px;
+    top: -15px;
+
+
+}
+
+
+#getting-here {
+    text-align: center;
+    color: black;
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 48px;
+
+}
+
+#birds {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    text-align: right;
+}
+
+#line {
+    height: 5px;
+    background-color: rgb(93, 194, 235);
+    width: 255px;
+    margin: auto;
+}
+
+.mapbox {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    background-color: rgb(223, 188, 223);
+}
+
+.mapbox iframe {
+    width: 94%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
+
+
+#map-pic {
+    width: 100%;
+    height: 600px;
+}
+
+#focus-us {
+    text-align: center;
+    font-family: 新細明體;
+    font-size: 24px;
+    letter-spacing: 6px;
+}
+@media(max-width:1500px){
+    #mday,
+#mday2,
+#mday3,
+#mday4 {
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 6rem;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 40%;
+    left: 63%;
+    opacity: 0.7;
+    color: white;
+}
+}
+@media(max-width:1421px) {
+    #arrow img:nth-child(1) {
+        width: 1000px;
+        height:20px;
+
+        position: absolute;
+        left: -6rem;
+        top: 0%;
+
+    }
+
+    #arrow img:nth-child(2) {
+        width: 5px;
+        height: 50px;
+        position: absolute;
+        left: 500px;
+        top: -5px;
+    }
+
+
+
+
+    #more {
+        color: white;
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 4rem;
+        margin-left: 500px;
+        left: 420px;
+
+
+    }
+}
+@media(max-width:1300px){
+    #mday,
+#mday2,
+#mday3,
+#mday4 {
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 6rem;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    opacity: 0.7;
+    color: white;
+}
+}
+
+@media(max-width:1220px) {
+/*
+    #arrow img:nth-child(1) {
+        width: 600px;
+        height: 50px;
+
+        position: absolute;
+        left: -6rem;
+        top: 0%;
+
+    }
+
+    #arrow img:nth-child(2) {
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        left: 300px;
+        top: 17px;
+    }
+
+
+
+
+    #more {
+        color: white;
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 4rem;
+        margin-left: 250px;
+
+
+    } */
+
+    #news-box1,
+    #news-box3 {
+        padding-top: 220px;
+        position: relative;
+
+    }
+
+    #news-box2,
+    #news-box4 {
+        padding-top: 220px;
+        position: relative;
+    }
+
+
+
+    #news-1,
+    #news-3 {
+        font-size: 40px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 55vh;
+        position: absolute;
+        left: 7%;
+        z-index: 1;
+
+    }
+
+    #news-2,
+    #news-4 {
+        font-size: 40px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 55vh;
+        position: absolute;
+        left: 32%;
+        z-index: 1;
+    }
+
+    .newspic img {
+        width: 100%;
+        ;
+        height: 70vh;
+
+
+    }
+
+    #mday,
+#mday2,
+#mday3,
+#mday4 {
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 6rem;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    opacity: 0.7;
+    color: white;
+}
+}
+
+@media(max-width:1199px) {
+    .main2 #news {
+        color: white;
+        font-size: 80px;
+        /* font-family: 'Century Schoolbook', sans-serif; */
+        font-family: 微軟正黑體;
+        position: absolute;
+        top: 90px;
+        left: 2rem;
+        z-index: 1;
+        opacity: 0.5;
+
+    }
+
+    .main2 #news-eng {
+        color: white;
+        font-size: 170px;
+        font-family: 'Century Schoolbook', sans-serif;
+        position: absolute;
+        top: 180px;
+        left: 2rem;
+        z-index: 1;
+        opacity: 0.5;
+        transform: scale(1, 1.5);
+
+
+    }
+
+
+
+    #news-4 {
+        padding-bottom: 150px;
+    }
+
+    #arrow img:nth-child(1) {
+        width: 900px;
+        height: 20px;
+
+        position: absolute;
+        left: -10rem;
+        top: 0%;
+
+    }
+
+    #arrow img:nth-child(2) {
+        width: 5px;
+        height: 50px;
+        position: absolute;
+        left: 210px;
+        top: -5px;
+    }
+
+
+
+
+    #more {
+        color: white;
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 3rem;
+        margin-left: 170px;
+        left: 600px;
+
+
+    }
+    #news-1 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 250px;
+        position: absolute;
+        left: 0%;
+        top: 520px;
+        z-index: 1;
+
+    }
+
+    #news-2,
+    #news-3,
+    #news-4 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 330px;
+        position: absolute;
+        left: 0%;
+        top: 440px;
+        z-index: 1;
+    }
+
+    .newspic{
+        width: 60%;
+        height: 0;
+        margin: auto;
+        position: relative;
+        padding-bottom: 50%;
+    }
+
+    .newspic img {
+        width: 100%;
+        height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+
+
+    }
+    #mday,
+    #mday2,
+    #mday3,
+    #mday4 {
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 5rem;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 40%;
+        left: 68%;
+        opacity: 0.7;
+        color: white;
+    }
+
+}
+@media(max-width:1050px){
+    #news-1 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 250px;
+        position: absolute;
+        left: 0%;
+        top: 470px;
+        z-index: 1;
+
+    }
+
+    #news-2,
+    #news-3,
+    #news-4 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 330px;
+        position: absolute;
+        left: 0%;
+        top: 390px;
+        z-index: 1;
+    }
+
+    .newspic{
+        width: 60%;
+        height: 0;
+        margin: auto;
+        position: relative;
+        padding-bottom: 50%;
+    }
+
+    .newspic img {
+        width: 100%;
+        height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+
+
+    }
+    #mday,
+    #mday2,
+    #mday3,
+    #mday4 {
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 5rem;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 40%;
+        left: 64%;
+        opacity: 0.7;
+        color: white;
+    }
+    #arrow img:nth-child(1) {
+        width: 800px;
+        height: 20px;
+
+        position: absolute;
+        left: -10rem;
+        top: 0%;
+
+    }
+
+    #arrow img:nth-child(2) {
+        width: 5px;
+        height: 50px;
+        position: absolute;
+        left: 210px;
+        top: -5px;
+    }
+
+
+
+
+    #more {
+        color: white;
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 3rem;
+        margin-left: 170px;
+        left: 500px;
+
+
+    }
+
+}
+
+@media(max-width:970px){
+    #news-1 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 250px;
+        position: absolute;
+        left: 0%;
+        top: 430px;
+        z-index: 1;
+
+    }
+
+    #news-2,
+    #news-3,
+    #news-4 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 330px;
+        position: absolute;
+        left: 0%;
+        top: 350px;
+        z-index: 1;
+    }
+
+    .newspic{
+        width: 60%;
+        height: 0;
+        margin: auto;
+        position: relative;
+        padding-bottom: 50%;
+    }
+
+    .newspic img {
+        width: 100%;
+        height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+
+
+    }
+    #mday,
+    #mday2,
+    #mday3,
+    #mday4 {
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 4rem;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 40%;
+        left: 69%;
+        opacity: 0.7;
+        color: white;
+    }
+    #arrow img:nth-child(1) {
+        width: 700px;
+        height: 20px;
+
+        position: absolute;
+        left: -10rem;
+        top: 0%;
+
+    }
+
+    #arrow img:nth-child(2) {
+        width: 5px;
+        height: 50px;
+        position: absolute;
+        left: 210px;
+        top: -5px;
+    }
+
+
+
+
+    #more {
+        color: white;
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 3rem;
+        margin-left: 170px;
+        left: 400px;
+
+
+    }
+
+}
+@media(max-width:900px){
+    #news-1 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 250px;
+        position: absolute;
+        left: 0%;
+        top: 390px;
+        z-index: 1;
+
+    }
+
+    #news-2,
+    #news-3,
+    #news-4 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 330px;
+        position: absolute;
+        left: 0%;
+        top: 310px;
+        z-index: 1;
+    }
+
+    .newspic{
+        width: 60%;
+        height: 0;
+        margin: auto;
+        position: relative;
+        padding-bottom: 50%;
+    }
+
+    .newspic img {
+        width: 100%;
+        height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+
+
+    }
+    #mday,
+    #mday2,
+    #mday3,
+    #mday4 {
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 4rem;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 40%;
+        left: 66%;
+        opacity: 0.7;
+        color: white;
+    }
+
+}
+@media(max-width:824px){
+    #news-1 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 250px;
+        position: absolute;
+        left: 0%;
+        top: 360px;
+        z-index: 1;
+
+    }
+
+    #news-2,
+    #news-3,
+    #news-4 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 330px;
+        position: absolute;
+        left: 0%;
+        top: 280px;
+        z-index: 1;
+    }
+
+    .newspic{
+        width: 60%;
+        height: 0;
+
+        margin: auto;
+        position: relative;
+        padding-bottom: 50%;
+    }
+
+    .newspic img {
+        width: 100%;
+        min-width: 420px;
+        height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+
+
+    }
+    #mday,
+    #mday2,
+    #mday3,
+    #mday4 {
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 4rem;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 40%;
+        left: 63%;
+        opacity: 0.7;
+        color: white;
+    }
+    #arrow img:nth-child(1) {
+        width: 600px;
+        height: 20px;
+
+        position: absolute;
+        left: -10rem;
+        top: 0%;
+
+    }
+
+    #arrow img:nth-child(2) {
+        width: 5px;
+        height: 50px;
+        position: absolute;
+        left: 210px;
+        top: -5px;
+    }
+
+
+
+
+    #more {
+        color: white;
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 3rem;
+        margin-left: 170px;
+        left: 300px;
+
+
+    }
+
+}
+
+@media(max-width:768px) {
+    .main2 #news {
+        color: white;
+        font-size: 60px;
+        /* font-family: 'Century Schoolbook', sans-serif; */
+        font-family: 微軟正黑體;
+        position: absolute;
+        top: 90px;
+        left: 1rem;
+        z-index: 1;
+        opacity: 0.5;
+
+    }
+
+    .main2 #news-eng {
+        color: white;
+        font-size: 120px;
+        font-family: 'Century Schoolbook', sans-serif;
+        position: absolute;
+        top: 180px;
+        left: 1rem;
+        z-index: 1;
+        opacity: 0.5;
+        transform: scale(1, 1.5);
+
+
+    }
+    .newspic{
+        width: 420px;
+        height: 350px;
+
+        margin: auto;
+        position: unset;
+        padding-bottom: unset;
+    }
+
+    .newspic img {
+        width: 100%;
+        height: 100%;
+       position: unset;
+
+
+
+    }
+    #mday,
+    #mday2,
+    #mday3,
+    #mday4 {
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 4rem;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 40%;
+        left: 67%;
+        opacity: 0.7;
+        color: white;
+    }
+    .mapbox {
+
+        background-color: white;
+    }
+    #arrow img:nth-child(1) {
+        width: 400px;
+        height: 10px;
+
+        position: absolute;
+        left: -10rem;
+        top: 0%;
+
+    }
+
+    #arrow img:nth-child(2) {
+        width: 5px;
+        height: 30px;
+        position: absolute;
+        left: 110px;
+        top: -5px;
+    }
+
+
+
+
+    #more {
+        color: white;
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 2rem;
+        margin-left: 170px;
+        top: -8px;
+        left: 100px;
+
+
+    }
+
+
+}
+
+
+
+@media(max-width:576px) {
+    nav {
+        height: 50px;
+    }
+
+    nav .col-2 img {
+        width: 107px;
+        height: 30px;
+
+    }
+
+    #burger {
+        width: 32px;
+        height: 17px;
+        line-height: unset;
+    }
+
+    #burger-btn {
+        height: 17px;
+        font-size: 20px;
+
+    }
+
+    #bannar2 {
+        padding-top: 50px;
+    }
+
+    .bannar2 .container2 {
+        width: 100%;
+    }
+
+    #videoplay {
+        height: calc(100vh - 50px);
+        min-height: 736px;
+    }
+
+    .bannar2 #video-logo img {
+        width: 230px;
+        height: 55px;
+    }
+
+    .bannar2 #video-text img {
+        width: 288px;
+        height: 41px;
+    }
+
+    .main2 {
+        margin: unset;
+
+    }
+
+    #news-backgro {
+        height: 600px;
+        /* min-height: 736px; */
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+
+
+    #inside-logo {
+
+        right: 5rem;
+        bottom: -250px;
+
+    }
+
+    #inside-logo2 {
+
+        right: 5rem;
+        top: -400px;
+
+    }
+
+    .main2 #news {
+
+        font-size: 10vw;
+        top: 20px;
+        left: 25px;
+
+        opacity: 0.5;
+
+    }
+
+    .main2 #news-eng {
+
+        font-size: 23vw;
+
+
+        top: 80px;
+        left: 25px;
+
+        opacity: 0.5;
+
+
+    }
+
+    .main2 .container2 {
+        padding: unset;
+    }
+
+    /* #news-backgro #news-box1 {
+        padding: unset;
+        padding-top: 20px;
+    } */
+
+    #news-backgro .container2 {
+        display: flex;
+    }
+
+    .newspic{
+        width: 360px;
+        height: 320px;
+
+        margin: auto;
+        position: unset;
+        padding-bottom: unset;
+    }
+
+    .newspic img {
+        width: 100%;
+        height: 100%;
+       position: unset;
+
+
+
+    }
+    .main2 #news,
+    .main2 #news-eng {
+        left: 25px;
+        padding: unset;
+    }
+
+    #news-1,
+    #news-2,
+    #news-3,
+    #news-4 {
+
+        margin: unset;
+
+        padding: unset;
+
+
+        position: absolute;
+        top: 100%;
+        left: 7%;
+        font-size: 24px;
+
+
+
+    }
+
+
+
+    #news-box1,
+    #news-box3,
+    #news-box2,
+    #news-box4 {
+        padding: unset;
+        padding-top: 180px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: calc(25px + 5rem);
+    }
+
+    #arrow img:nth-child(1) {
+        width: 350px;
+        height: 10px;
+
+        position: absolute;
+        left: -10rem;
+        top: -550px;
+
+    }
+
+    #arrow img:nth-child(2) {
+        width: 2px;
+        height: 30px;
+        position: absolute;
+        left: 90px;
+        top: -555px;
+    }
+
+
+
+
+    #more {
+        color: white;
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 2rem;
+        margin-left: 170px;
+        left: 0px;
+        top: -560px;
+
+
+    }
+    #mday,
+    #mday2,
+    #mday3,
+    #mday4 {
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 3.2rem;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 34%;
+        left: 85%;
+        opacity: 0.7;
+        color: white;
+    }
+
+    #line {
+        width: 150px;
+    }
+
+    #birds {
+
+        right: 200px;
+        bottom: 0px;
+        z-index: -1;
+
+
+    }
+
+    .main2 .container3 {
+        width: 100%;
+    }
+
+    .main2 iframe {
+        height: 576px;
+    }
+
+    #map-pic {
+        display: none;
+    }
+
+
+}
+
