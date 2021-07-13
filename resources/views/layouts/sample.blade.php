@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="{{ asset("css/sample.css") }}">
     <link rel="stylesheet" href="{{ asset("css/sample-2.css") }}">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     @yield('css')
 
@@ -22,57 +23,87 @@
             <div class="nav-bar">
                 <div class="logo">
                     <div class="logo-picture">
-                        <img  src="{{ asset('./img/nav-logo.png') }}" alt="">
+                        <a href="/"><img src="{{ asset('./img/nav-logo.png') }}" alt=""></a>
                     </div>
                     <!-- <div class="logo-text">Ample Villa</div> -->
                 </div>
                 <div class="barger">
 
-                    <label for="burger-menu"><img class="three-line" src="{{ asset('./img/nav-barger.png') }}">
+                    <label for="burger-menu" style="height: 0px"><img class="three-line"
+                            src="{{ asset('./img/nav-barger.png') }}">
                     </label>
                     <input type="checkbox" id="burger-menu">
-                    <ul class="navbar-nav ml-auto">
+                    <div class="navbar-nav ml-auto d-flex">
                         <!-- Authentication Links -->
-                        @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
+                        {{-- @guest
+                        <div class="nav-item">
+                            <a class="nav-link" style="width: auto" href="{{ asset('/member/login') }}">{{ __('Login') }}</a>
+                    </div>
+                    @if (Route::has('register'))
+                    <div class="nav-item">
+                        <a class="nav-link" style="width: auto"
+                            href="{{ asset('/member/register') }}">{{ __('Register') }}</a>
+                    </div>
+                    @endif
+                    @else
+                    <li class="nav-item dropdown">
+                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            {{ Auth::user()->name }} <span class="caret"></span>
+                        </a>
 
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
+                                {{ __('Logout') }}
+                            </a>
 
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                        @endguest
-                    </ul>
-                    <ul class="menu">
-                        <li class="burgar-link  logoin"><a href="{{ asset('/member/register') }}">會員登入/註冊</a></li>
-                        <li class="burgar-link"><a href="{{ asset('/about_us') }}">關於Ample Villa</a></li>
-                        <li class="burgar-link"><a href="{{ asset('front.news.index') }}">最新消息</a></li>
-                        <li class="burgar-link"><a href="{{ asset('/member/register') }}">房型一覽</a></li>
-                        <li class="burgar-link"><a href="{{ asset('/servive/service-equipment') }}">服務及設施</a></li>
-                        <li class="burgar-link"><a href="{{ asset('/landscape') }}">附近風景</a></li>
-                        <li class="burgar-link room"><a href="{{ asset('/rent') }}">線上訂房</a></li>
-                    </ul>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
+                        </div>
+                    </li>
+                    @endguest --}}
                 </div>
+                <ul class="menu">
+                    {{-- <li class="burgar-link  logoin"><a href="{{ asset('/member/register') }}">會員登入/註冊</a></li> --}}
+                    @guest
+                    <li class="nav-item">
+                        <a href="{{ asset('/member/login') }}">登入</a>
+                    </li>
+                    @if (Route::has('register'))
+                    <li class="nav-item">
+                        <a href="{{ asset('/member/register') }}">/註冊</a>
+                    </li>
+                    @endif
+                    @else
+                    <li class="nav-item dropdown">
+                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 0px; margin-bottom:30px" v-pre>
+                            {{ Auth::user()->name }} <span class="caret"></span>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                {{ __('Logout') }}
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
+                        </div>
+                    </li>
+                    @endguest
+                    <li class="burgar-link"><a href="{{ asset('/about_us') }}">關於Ample Villa</a></li>
+                    <li class="burgar-link"><a href="{{ asset('front.news.index') }}">最新消息</a></li>
+                    <li class="burgar-link"><a href="{{ asset('/member/register') }}">房型一覽</a></li>
+                    <li class="burgar-link"><a href="{{ asset('/servive/service-equipment') }}">服務及設施</a></li>
+                    <li class="burgar-link"><a href="{{ asset('/landscape') }}">附近風景</a></li>
+                    <li class="burgar-link room"><a href="{{ asset('/rent') }}">線上訂房</a></li>
+                </ul>
             </div>
+        </div>
         </div>
     </nav>
 
@@ -105,7 +136,7 @@
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
         </div>
         <div class="footer-map">
             <div class="container">
@@ -153,12 +184,16 @@
     </footer>
 
     <!-- bootstrap js  -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
     <script>
-
-
         var b = document.querySelector('.three-line')
         var a = document.querySelector('#burger-menu')
 
@@ -173,7 +208,7 @@
 
     </script>
 
-@yield('js')
+    @yield('js')
 </body>
 
 </html>
