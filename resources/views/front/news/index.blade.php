@@ -2,7 +2,7 @@
 
 @section('page_title')
 
-最新消息
+Ample Villa首頁
 
 @endsection
 

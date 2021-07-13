@@ -20,7 +20,7 @@ Ample Villa-最新消息
                 <div class="col-12">
                     <div class="row rowbox" style="padding: unset;margin:unset;">
                         <div class="col-4 inside-logo2" >
-                            <img src="./img-最新消息/內文-logo.png" alt="" >
+                            <img src="{{ asset(("./img-最新消息/內文-logo.png")) }}" alt="" >
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ Ample Villa-最新消息
                     <div class="col-xl-3"></div>
                     <div class="col-xl-6 col-12 newspic" style="position: relative;display: flex;"><img
                             alt="gallery" class="w-full object-cover h-full object-center block"
-                            src="./img-最新消息/最新消息-圖1.png">
+                            src="{{ asset("./img-最新消息/最新消息-圖1.png") }}">
                         <div class="row">
                             <div class="col-3" style="padding: unset;">
                                 <span id="mday"></span>
@@ -59,7 +59,7 @@ Ample Villa-最新消息
                     <div class="col-xl-6"></div>
                     <div class="col-xl-6 col-12 newspic" style="position: relative;display: flex;"><img
                             alt="gallery" class="w-full object-cover h-full object-center block"
-                            src="./img-最新消息/最新消息-圖2.png">
+                            src="{{ asset("./img-最新消息/最新消息-圖2.png") }}">
                         <div class="row">
                             <div class="col-3" style="padding: unset;">
                                 <span id="mday2"></span>
@@ -76,7 +76,7 @@ Ample Villa-最新消息
                     <div class="col-xl-3"></div>
                     <div class="col-xl-6 col-12 newspic" style="position: relative;display: flex;"><img
                             alt="gallery" class="w-full object-cover h-full object-center block"
-                            src="./img-最新消息/最新消息-圖3.png">
+                            src="{{ asset("./img-最新消息/最新消息-圖3.png") }}">
                         <div class="row">
                             <div class="col-3" style="padding: unset;">
                                 <span id="mday3"></span>
@@ -94,7 +94,7 @@ Ample Villa-最新消息
                     <div class="col-xl-6"></div>
                     <div class="col-xl-6 col-12 newspic" style="position: relative;display: flex;"><img
                             alt="gallery" class="w-full object-cover h-full object-center block"
-                            src="./img-最新消息/最新消息-圖4.png">
+                            src="{{ asset("./img-最新消息/最新消息-圖4.png") }}">
                         <div class="row">
                             <div class="col-3" style="padding: unset;">
                                 <span id="mday4"></span>
@@ -124,7 +124,7 @@ Ample Villa-最新消息
 
                     </div>
                     <a class="col-xl-4 col-sm-2 col-3 imgarrow" style="padding: unset;" href="" >
-                        <img src="./img-最新消息/top.png" alt="">
+                        <img src="{{ asset("./img-最新消息/top.png") }}" alt="">
 
                     </a>
 
