@@ -8,6 +8,7 @@
     <title>@yield('page_title')</title>
     <link href="http://fonts.cdnfonts.com/css/century-schoolbook" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset("css/sample.css") }}">
+    <link rel="stylesheet" href="{{ asset("css/sample-2.css") }}">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
@@ -30,15 +31,45 @@
                     <label for="burger-menu"><img class="three-line" src="{{ asset('./img/nav-barger.png') }}">
                     </label>
                     <input type="checkbox" id="burger-menu">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Authentication Links -->
+                        @guest
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            </li>
+                            @if (Route::has('register'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif
+                        @else
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+                        @endguest
+                    </ul>
                     <ul class="menu">
                         <li class="burgar-link  logoin"><a href="{{ asset('/member/register') }}">會員登入/註冊</a></li>
-                        <li class="burgar-link"><a href="">關於Ample Villa</a></li>
-                        <li class="burgar-link"><a href="{{ asset('/news/index') }}">最新消息</a></li>
+                        <li class="burgar-link"><a href="{{ asset('/about_us') }}">關於Ample Villa</a></li>
+                        <li class="burgar-link"><a href="{{ asset('front.news.index') }}">最新消息</a></li>
                         <li class="burgar-link"><a href="{{ asset('/member/register') }}">房型一覽</a></li>
                         <li class="burgar-link"><a href="{{ asset('/servive/service-equipment') }}">服務及設施</a></li>
                         <li class="burgar-link"><a href="{{ asset('/landscape') }}">附近風景</a></li>
                         <li class="burgar-link room"><a href="{{ asset('/rent') }}">線上訂房</a></li>
-
                     </ul>
                 </div>
             </div>
@@ -49,8 +80,9 @@
         @yield('content')
     </main>
 
+
     <footer>
-        <div class="footer-map">
+        <div class="footer-map" style="background-color: white">
             <div class="container">
                 <div class="text">
                     <div class="text-getting">Getting Here</div>
@@ -75,39 +107,48 @@
             </div>
             </div>
         </div>
-        <div class="phone-photo">
-            <img src="{{ asset('./img/footer-船-大.png') }}" alt="" class="ship-img-b">
-            <img src="{{ asset('./img/footer-船-中.png') }}" alt="" class="ship-img-m">
-            <img src="{{ asset('./img/footer-船-小.png') }}" alt="" class="ship-img-s">
-        </div>
-        <div class="footer-content">
-            <div class="text">
-                <div class="text-left-1">
-                    <div class="ample-villa">
-                        <span class="item"><a href="">關於Ample Villa</a></span>
-                        <span class="item"><a href="">房型一覽</a></span>
-                        <span class="item"><a href="">附近風景</a></span>
+        <div class="footer-map">
+            <div class="container">
+                <div class="phone-photo">
+                    <img src="{{ asset('./img/footer-船-大.png') }}" alt="" class="ship-img-b">
+                    <img src="{{ asset('./img/footer-船-中.png') }}" alt="" class="ship-img-m">
+                    <img src="{{ asset('./img/footer-船-小.png') }}" alt="" class="ship-img-s">
+                </div>
+                <div class="footer-content">
+                    <div class="text">
+                        <div class="text-left-1">
+                            <div class="ample-villa">
+                                <span class="item"><a href="">關於Ample Villa</a></span>
+                                <span class="item"><a href="">房型一覽</a></span>
+                                <span class="item"><a href="">附近風景</a></span>
+                            </div>
+
+                            <div class="ample-villa">
+                                <span class="item"><a href="">最新消息</a></span>
+                                <span class="item"><a href="">服務及設施</a></span>
+                                <span class="item"><a href="">線上訂房</a></span>
+                            </div>
+                            <div class="footer-word-border-2"></div>
+                        </div>
+
+                        <div class="text-right">
+                            <span class="hotel-name-1">Ample Villa</span>
+                            <span class="phone-1">02 2496 2888</span>
+                            <span class="address-1">224 新北市瑞芳區洞頂路155-9號</span>
+
+                        </div>
                     </div>
 
-                    <div class="ample-villa">
-                        <span class="item"><a href="">最新消息</a></span>
-                        <span class="item"><a href="">服務及設施</a></span>
-                        <span class="item"><a href="">線上訂房</a></span>
+                    <div class="copyright-1">
+                        <div class="footer-word-border-1"></div>
+                        <div class="container">
+                            <div class="textarea-1">Copyright © 2021 有事請燒紙 All rights reserved</div>
+                            <div class="footer-box"></div>
+
+                        </div>
                     </div>
                 </div>
-
-                <div class="text-right">
-                    <ul>
-                        <li class="hotel-name">Ample Villa</li>
-                        <li class="phone">02 2496 2888</li>
-                        <li>224 新北市瑞芳區洞頂路155-9號</li>
-                    </ul>
-                </div>
             </div>
-            <div class="copyright">
-                <div class="textarea">Copyright © 2021 有事請燒紙 All rights reserved</div>
-            </div>
-
         </div>
     </footer>
 

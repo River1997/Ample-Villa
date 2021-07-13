@@ -493,4 +493,9 @@
         right: 25px;
         bottom: 130px;
     }
+
+    .cover-text-2 h2{
+        left: 220px;
+        font-size: 40px;
+    }
 }
