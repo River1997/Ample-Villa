@@ -24,7 +24,8 @@ Route::get('/', function () {
 
 
 // Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/home', 'FrontController@about_us')->name('home');
+Route::get('/home', 'FrontController@success')->name('home');
+
 
 Route::get('/admin/news/create', 'NewsController@create');
 
@@ -56,9 +57,10 @@ Route::get('/member/success', 'FrontController@success');
 Route::get('/member/login', 'FrontController@login');
 Route::get('/member/profile-1', 'FrontController@profile1');
 Route::get('/member/profile-2', 'FrontController@profile2');
-Route::get('/member/reservation-1', 'FrontController@reservatio1');
-Route::get('/member/reservation-2', 'FrontController@reservatio2');
+Route::get('/member/reservation-1', 'FrontController@reservation1');
+Route::get('/member/reservation-2', 'FrontController@reservation2');
 Route::get('/member/connection-1', 'FrontController@connection1');
+Route::get('/member/connection-2', 'FrontController@connection2');
 
 
 

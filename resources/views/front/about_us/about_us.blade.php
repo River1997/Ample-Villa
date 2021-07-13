@@ -17,7 +17,7 @@
 
 <div class="p">
     <div class="cover-about-us-01"><img src="./img-about_us/about_us-cover-01.jpg" alt=""></div>
-    <div class="cover-about-us-02"><img src="./img-about_us/about_us-cover-02.jpg" alt=""></div>
+    <div class="cover-about-us-02"><img src="./img-about_us/關於-Ample-Villa-圖.png" alt=""></div>
     <div class="title">Ample Villa</div>
     <div class="cover-text">
         <h1>關於Ample Villa</h1>

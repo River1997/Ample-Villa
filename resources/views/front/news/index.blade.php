@@ -12,56 +12,20 @@
 @endsection
 
 @section('content')
-    {{-- <nav>
+<div class="bannar2">
 
-        <div class="row">
-            <div class="container2">
-                <div class="row"
-                    style="width: 100%;height: 100%;background-color: white;margin:unset;padding-top: 15px;">
-                    <div class="col-2" style="float: left;padding: unset;">
-                        <img src="./img-index/nav-logo.png">
-                    </div>
-                    <div class="col-9" style="float: left;padding: unset;"></div>
-                    <div class="col-1" style="float: right;position: relative;padding: unset;">
+    <!-- <div class="video-box">
+        <video src="/timg-index/est.mp4" loop autoplay id="myVideo"></video>
 
-                        <p id="burger">
-                            <button class="btn fas fa-bars" type="button" data-toggle="collapse"
-                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
-                                id="burger-btn">
+    </div> -->
+    <div class="container2">
+        <div class="row" style="position: relative;width: 100%;margin: unset;padding: unset;overflow: hidden;">
+            <div class="videobox">
 
-                            </button>
-                        </p>
-                        <div class="collapse dropdown-menu" id="collapseExample"
-                            style="position: absolute;top: 80px;left: unset;right: 0px;">
-                            <div class="dropdown-item">
-                                <a class="dropdown-item" href="#">關於 Ample Villa</a>
-                            </div>
-                            <div class="dropdown-item">
-                                <a class="dropdown-item" href="#">最新消息</a>
-                            </div>
-                            <div class="dropdown-item">
-                                <a class="dropdown-item" href="#">房型一覽</a>
-                            </div>
-                            <div class="dropdown-item">
-                                <a class="dropdown-item" href="#">服務及設施</a>
-                            </div>
-                            <div class="dropdown-item">
-                                <a class="dropdown-item" href="#">附近風景</a>
-                            </div>
-                            <div class="dropdown-item">
-                                <a class="dropdown-item" href="#">線上訂房</a>
-                            </div>
-                            <div class="dropdown-item">
-                                <a class="dropdown-item" href="#">會員系統</a>
-                            </div>
 
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
+                <iframe
+                    src="https://www.youtube.com/embed/4AbN68ZgSm4?autoplay=1&mute=1&rel=0&loop=1&controls=0&playlist=4AbN68ZgSm4"
+                    frameborder="0" allowfullscreen="true"></iframe>
 
     </nav> --}}
     <div class="bannar2">
@@ -81,8 +45,7 @@
 
                     <!-- https://www.youtube.com/embed/4AbN68ZgSm4?rel=0&autoplay=1&mute=1&oop=1&playlist=4AbN68ZgSm4 -->
                 </div>
-                <!-- <div class="video-box">
-                    <video src="./img-index/test.mp4" loop autoplay id="myVideo"></video>
+            </div>
 
                 </div> -->
                 <div class="col-12" id="video-logo">
@@ -97,9 +60,14 @@
                     </div>
                 </div>
 
-            </div>
 
+    </div>
+</div>
 
+<div class="main2">
+    <div class="row" style="padding: unset;margin:unset;">
+        <div class="col-4" id="inside-logo2">
+            <img src="./img-index/地圖-指針圖案.png" alt="">
         </div>
     </div>
 
@@ -130,10 +98,9 @@
                                 </div>
 
                         </div>
-
                     </div>
 
-                    <div class="row" id="news-box2">
+                </div>
 
                         <div class="col-xl-9" id="news-2">
                             三月是雙魚和牡羊朋友的大日子
@@ -148,8 +115,13 @@
                                 </div>
 
                         </div>
+                    </div>
 
 
+                </div>
+                <div class="row" id="news-box3">
+                    <div class="col-xl-9 col-9" id="news-3">
+                        三月是雙魚和牡羊朋友的大日子
                     </div>
                     <div class="row" id="news-box3">
                         <div class="col-xl-9" id="news-3">
@@ -165,10 +137,9 @@
                                 </div>
 
                         </div>
-
                     </div>
 
-                    <div class="row" id="news-box4">
+                </div>
 
                         <div class="col-xl-9" id="news-4">
                             三月是雙魚和牡羊朋友的大日子
@@ -183,11 +154,12 @@
                                 </div>
 
                         </div>
-
-
                     </div>
-                    <div class="row" style="height: 150px;width: 100%;"></div>
+
+
                 </div>
+                <div class="row" style="height: 150px;width: 100%;"></div>
+
 
             </div>
             <div class="row" id="arrow">
@@ -226,28 +198,17 @@
 
                 </div>
             </div>
-            <div class="col-4" style="position: absolute;top: 600px;left: -8rem;"><img src="./img-index/地圖-指針圖案.png"
-                    alt="" id="map-pic"></div>
 
         </div>
-        <div class="row" style="padding-top: 85px;margin: auto;">
-            <div class="col-4"></div>
-            <div class="col-4" id="focus-us">關注我們
-
+        <div class="row" id="arrow">
+            <div class="col-8" style="padding: unset;">
+                <a href="" style="text-decoration: none;color: white;">
+                    <img src="./img-index/內文-指標1.png" alt="">
+                    <img src="./img-index/內文-指標2.png" alt="">
+                </a>
             </div>
-        </div>
-        <div class="row" style="margin: unset;margin-top: 25px;">
-            <div class="col-xl-4 col-md-2 col-1" style="padding: unset;"></div>
-            <div class="col-xl-4 col-md-8 col-10" style="padding: unset;">
-                <div class="row">
-                    <div class="col-4" style="text-align: right;padding: unset;">
-                        <img src="./img-index/fb.png" alt="">
-                    </div>
-                    <div class="col-4" style="text-align: center;padding: unset;"><img src="./img-index/ig.png" alt="">
-                    </div>
-                    <div class="col-4" style="text-align: left;padding: unset;"><img src="./img-index/email.png" alt="">
-                    </div>
-                </div>
+            <div class="col-3" style="padding: unset;">
+                <div id="more">More</div>
             </div>
 
         </div> --}}

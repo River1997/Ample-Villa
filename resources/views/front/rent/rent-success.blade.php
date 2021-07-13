@@ -127,7 +127,7 @@
         .rowback{
             justify-content: flex-end;
         }
-       
+
         #back-index {
             width: 100%;
             font-size: 36px;
@@ -196,7 +196,7 @@
                 text-align: center;
                 font-size: 30pt;
             }
-          
+
 
 
         }
@@ -218,8 +218,8 @@
             margin: 50px 0 0px 0;
             height: 68px;
         }
-            
-            
+
+
         }
         @media(max-width:590px){
             main {
@@ -229,9 +229,9 @@
                 /* height: 2000px; */
 
             }
-           
-            
-            
+
+
+
         }
     </style>
 </head>
@@ -311,20 +311,23 @@
                         <div class="col-12 room-disc">
                             感謝您，已完成訂房！<br><br>
                         </div>
-                        
+
                         <div class="col-12 room-disc">您於訂房時所提供的電子郵件地址將會在15分鐘內收到一封電子郵件確認函。<br><br></div>
-                        
+
                         <div class="col-12 room-disc">收到電子郵件確認函後，請別忘了仔細檢查您的訂房詳細資料。如果您對訂房有任何疑問，請與客服中心聯絡。</div>
                         <div class="col-12" style="padding: unset;">
                            <div class="row rowback" style="margin: unset;">
                                <div class="col-md-4 col-6" style="padding: unset;"></div>
-                               <div class="col-md-4 col-6" style="padding: unset;"> <input type="button" value="回到首頁" id="back-index" class="form-control"><br></div>
+                               <div class="col-md-4 col-6" style="padding: unset;">
+                                <a href="{{ asset("/") }}">
+                                    <input type="button" value="回到首頁" id="back-index" class="form-control">
+                                </a><br></div>
                            </div>
-                           
+
                     </div>
-                   
+
                 </form>
-                
+
 
 
 
