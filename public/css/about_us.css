@@ -4,6 +4,7 @@
     background-color: rgba(137,185,223,255);
     position: relative;
     height: 1300px;
+    overflow: hidden;
 }
 
 .cover-about-us-01 img{
@@ -136,7 +137,7 @@
 .p::after{
     content:" ";
     position: absolute;
-    bottom: 8%;
+    bottom: 7.5%;
     left: 350px;
     width: 4px;
     height: 40px;
@@ -191,7 +192,7 @@
     }
 
     .p::after{
-        left: 7%;
+        left: 7.5%;
         bottom: 2%;
     }
 
