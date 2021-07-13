@@ -61,16 +61,20 @@ Route::get('/member/reservation-2', 'FrontController@reservatio2');
 Route::get('/member/connection-1', 'FrontController@connection1');
 
 
-Route::get('/rent', 'FrontController@rent');
-Route::get('/rent-room', 'FrontController@rentroom');
-Route::get('/rent-room-2', 'FrontController@rentroom2');
+
+
+Route::get('/rent', 'FrontController@rentroom2');
 Route::get('/rent-pay', 'FrontController@rentpay');
 Route::get('/rent-detail', 'FrontController@rentdetail');
 Route::get('/rent-success', 'FrontController@rentsuccess');
 
+Route::get('/news/news', 'FrontController@news');
+
+Route::get('/room', 'FrontController@room');
+
 Route::get('/landscape', 'FrontController@landscape');
 
-Route::get('/service/service-equipment', 'FrontController@serviceequipment');
+Route::get('/service', 'FrontController@service');
 
 
 

@@ -1,0 +1,984 @@
+
+@import url('http://fonts.cdnfonts.com/css/century-schoolbook');
+
+body {
+    margin: 0;
+    line-height: unset;
+
+
+}
+
+* {
+
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    z-index: 30;
+    background-color: white;
+}
+
+
+
+.container2 {
+    width: 89.53%;
+    margin: auto;
+
+}
+
+.container3 {
+    width: 85%;
+    margin: auto;
+}
+
+nav .col-2 img {
+    width: 250px;
+    height: 70px;
+
+}
+
+#burger {
+    line-height: 70px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    padding: unset;
+}
+
+#burger-btn {
+    font-size: 2rem;
+    color: royalblue;
+    padding: unset;
+
+}
+
+#bannar2 {
+    padding-top: 90px;
+    min-height: 736px;
+}
+
+/* .bannar{
+    height: 60vh;
+} */
+
+
+.video-box {
+    width: 90%;
+    /* height: 90vh; */
+    margin: auto;
+}
+
+
+
+#myVideo {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+}
+
+#video-logo {
+    position: absolute;
+    top: 45%;
+    text-align: center;
+
+
+
+
+}
+
+#video-logo img {
+    width: 363px;
+    height: 86px;
+}
+
+#video-text {
+    position: absolute;
+    top: 60%;
+    text-align: center;
+
+
+}
+
+#videoplay {
+    width: 100%;
+    height: 968px;
+}
+
+#video-text img {
+    width: 640px;
+    height: 92px;
+}
+
+.main2 {
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+/* .main2 .rowbox{
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    right: 20px;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+} */
+
+.main2 .container2 {
+    padding-top: 80px;
+}
+
+#inside-logo {
+    margin: unset;
+    padding: unset;
+    position: absolute;
+    right: -9rem;
+    bottom: -350px;
+    z-index: 3;
+}
+
+.inside-logo2{
+    margin: unset;
+    padding: unset;
+    position: absolute;
+    right: -8rem;
+    top: 150px;
+    z-index: 1;
+}
+.inside-logo2 img{
+    width: 120%;
+
+}
+
+#news-backgro {
+    background-color: rgb(138, 185, 223);
+    opacity: 0.8;
+    background-image: url(./img-最新消息/首頁-最新消息-底圖-大.png);
+    padding: unset;
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-attachment: scroll;
+
+}
+
+.main2 #news {
+    color: white;
+    font-size: 95px;
+    /* font-family: 'Century Schoolbook', sans-serif; */
+    font-family: 微軟正黑體;
+    position: absolute;
+    top: 90px;
+    left: 9rem;
+    z-index: 1;
+    opacity: 0.5;
+
+
+}
+
+.main2 #news-eng {
+    color: white;
+    font-size: 250px;
+    font-family: 'Century Schoolbook', sans-serif;
+    position: absolute;
+    top: 180px;
+    left: 9rem;
+    z-index: 1;
+    transform: scale(1,1.5);
+    opacity: 0.5;
+
+
+}
+
+#news-box1,
+#news-box3 {
+    padding-top: 240px;
+    position: relative;
+
+}
+
+#news-box2,
+#news-box4 {
+    padding-top: 240px;
+    position: relative;
+}
+
+
+
+#news-1,
+#news-3 {
+    font-size: 36px;
+    color: white;
+    font-family: 新細明體;
+    text-align: left;
+    margin-top: 55vh;
+    position: absolute;
+    left: 7%;
+    z-index: 1;
+
+}
+
+#news-2,
+#news-4 {
+    font-size: 36px;
+    color: white;
+    font-family: 新細明體;
+    text-align: left;
+    margin-top: 55vh;
+    position: absolute;
+    left: 32%;
+    z-index: 1;
+}
+
+.newspic img {
+    width: 784px;
+
+    height: 784px;
+
+
+}
+
+#mday,
+#mday2,
+#mday3,
+#mday4 {
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 150px;
+    letter-spacing: -10px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 19rem;
+    left: -19rem;
+    opacity: 1;
+    color: white;
+}
+.page-last, .page, .page-next{
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}
+.page-last:hover, .page-next:hover{
+    text-decoration: none;
+}
+.imgarrow{
+    text-align: right;
+
+    position: relative
+}
+ .imgarrow img{
+    width: 100px;
+    height: 100px;
+
+    position: relative;
+
+    text-align: right;
+}
+.forpad{
+    height: 150px;width: 100%;
+}
+@media(max-width:1757px){
+    .main2 #news {
+    color: white;
+    font-size: 95px;
+    /* font-family: 'Century Schoolbook', sans-serif; */
+    font-family: 微軟正黑體;
+    position: absolute;
+    top: 90px;
+    left: 9rem;
+    z-index: 1;
+    opacity: 0.5;
+
+
+}
+
+.main2 #news-eng {
+    color: white;
+    font-size: 250px;
+    font-family: 'Century Schoolbook', sans-serif;
+    position: absolute;
+    top: 180px;
+    left: 9rem;
+    z-index: 1;
+    transform: scale(1,1.5);
+    opacity: 0.5;
+
+
+}
+
+#news-box1,
+#news-box3 {
+    padding-top: 220px;
+    position: relative;
+
+}
+
+#news-box2,
+#news-box4 {
+    padding-top: 220px;
+    position: relative;
+}
+
+
+
+#news-1,
+#news-3 {
+    font-size: 36px;
+    color: white;
+    font-family: 新細明體;
+    text-align: left;
+    margin-top: 55vh;
+    position: absolute;
+    left: 7%;
+    z-index: 1;
+
+}
+
+#news-2,
+#news-4 {
+    font-size: 36px;
+    color: white;
+    font-family: 新細明體;
+    text-align: left;
+    margin-top: 55vh;
+    position: absolute;
+    left: 32%;
+    z-index: 1;
+}
+
+
+.newspic img {
+    width: 600px;
+
+    height: 600px;
+
+
+}
+
+#mday,
+#mday2,
+#mday3,
+#mday4 {
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 120px;
+    letter-spacing: -10px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 14rem;
+    left: -14rem;
+    opacity: 1;
+    color: white;
+}
+
+}
+@media(max-width:1347px){
+    .main2 #news {
+    color: white;
+    font-size: 80px;
+    /* font-family: 'Century Schoolbook', sans-serif; */
+    font-family: 微軟正黑體;
+    position: absolute;
+    top: 90px;
+    left: 9rem;
+    z-index: 1;
+    opacity: 0.5;
+
+
+}
+
+.main2 #news-eng {
+    color: white;
+    font-size: 200px;
+    font-family: 'Century Schoolbook', sans-serif;
+    position: absolute;
+    top: 180px;
+    left: 9rem;
+    z-index: 1;
+    transform: scale(1,1.5);
+    opacity: 0.5;
+
+
+}
+
+#news-box1,
+#news-box3 {
+    padding-top: 240px;
+    position: relative;
+
+}
+
+#news-box2,
+#news-box4 {
+    padding-top: 240px;
+    position: relative;
+}
+
+
+
+#news-1,
+#news-3 {
+    font-size: 36px;
+    color: white;
+    font-family: 新細明體;
+    text-align: left;
+    margin-top: 45vh;
+    position: absolute;
+    left: 7%;
+    z-index: 1;
+
+}
+
+#news-2,
+#news-4 {
+    font-size: 36px;
+    color: white;
+    font-family: 新細明體;
+    text-align: left;
+    margin-top: 45vh;
+    position: absolute;
+    left: 32%;
+    z-index: 1;
+}
+
+.newspic img {
+    width: 550px;
+
+    height: 550px;
+
+
+}
+
+#mday,
+#mday2,
+#mday3,
+#mday4 {
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 100px;
+    letter-spacing: -10px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 13rem;
+    left: -180px;
+    opacity: 1;
+    color: white;
+}
+}
+@media(max-width:1240px){
+    #mday,
+#mday2,
+#mday3,
+#mday4 {
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 100px;
+    letter-spacing: -10px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 13rem;
+    left: -200px;
+    opacity: 1;
+    color: white;
+}
+}
+
+@media(max-width:1199px) {
+    #news-backgro {
+    background-color: rgb(138, 185, 223);
+    opacity: 0.8;
+    background-image: url(./img-最新消息/首頁-最新消息-底圖-大.png);
+    padding: unset;
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-attachment: scroll;
+
+}
+    #inside-logo2 {
+        margin: unset;
+        padding: unset;
+        position: absolute;
+        right: 5rem;
+        top: 50px;
+        z-index: 3;
+    }
+
+    .main2 #news {
+        color: white;
+        font-size: 80px;
+        /* font-family: 'Century Schoolbook', sans-serif; */
+        font-family: 微軟正黑體;
+        position: absolute;
+        top: 90px;
+        left: 2rem;
+        z-index: 1;
+        opacity: 0.5;
+
+    }
+
+    .main2 #news-eng {
+        color: white;
+        font-size: 200px;
+        font-family: 'Century Schoolbook', sans-serif;
+        position: absolute;
+        top: 170px;
+        left: 2rem;
+        z-index: 1;
+        opacity: 0.5;
+
+
+    }
+
+    #news-box1 {
+        padding-top: 240px;
+        position: relative;
+
+
+
+    }
+
+    #news-box2,
+    #news-box3,
+    #news-box4 {
+        padding-top: 160px;
+        position: relative;
+    }
+
+
+
+    #news-1 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 55vh;
+        position: absolute;
+        left: 6%;
+        top: 600px;
+        z-index: 1;
+
+    }
+
+    #news-2,
+    #news-3,
+    #news-4 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 55vh;
+        position: absolute;
+        left: 6%;
+        top: 520px;
+        z-index: 1;
+    }
+
+    .newspic img {
+        width: 90%;
+
+        height: 784px;
+        margin: auto;
+
+
+    }
+
+    #mday,
+    #mday2,
+    #mday3,
+    #mday4 {
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 150px;
+        letter-spacing: -10px;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 18rem;
+        left: -23rem;
+        opacity: 1;
+        color: white;
+    }
+
+}
+
+@media(max-width:768px) {
+    .main2 #news {
+        color: white;
+        font-size: 60px;
+        /* font-family: 'Century Schoolbook', sans-serif; */
+        font-family: 微軟正黑體;
+        position: absolute;
+        top: 90px;
+        left: 2rem;
+        z-index: 1;
+        opacity: 0.5;
+
+    }
+
+    .main2 #news-eng {
+        color: white;
+        font-size: 150px;
+        font-family: 'Century Schoolbook', sans-serif;
+        position: absolute;
+        top: 150px;
+        left: 2rem;
+        z-index: 1;
+        opacity: 0.5;
+
+
+    }
+    .newspic img {
+        width: 570px;
+
+        height: 570px;
+
+
+    }
+
+    #news-box1,
+    #news-box3,
+    #news-box2,
+    #news-box4 {
+        padding: unset;
+        padding-top: 180px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0;
+    }
+    #news-1 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 55vh;
+        position: absolute;
+        left: 8%;
+        top: 320px;
+        z-index: 1;
+
+    }
+
+    #news-2,
+    #news-3,
+    #news-4 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 55vh;
+        position: absolute;
+        left: 8%;
+        top: 320px;
+        z-index: 1;
+    }
+    #mday,
+    #mday2,
+    #mday3,
+    #mday4 {
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 120px;
+        letter-spacing: -10px;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 12rem;
+        left: -17rem;
+        opacity: 1;
+        color: white;
+    }
+    .page-last, .page, .page-next{
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}
+.page-last:hover, .page-next:hover{
+    text-decoration: none;
+}
+.imgarrow{
+    text-align: right;
+
+
+    position: relative
+}
+ .imgarrow img{
+    width: 100px;
+    height: 100px;
+
+    position: relative;
+
+    text-align: right;
+}
+
+
+}
+@media(max-width:667px){
+    .newspic img {
+        width: 520px;
+
+        height: 520px;
+
+
+    }
+    #mday,
+    #mday2,
+    #mday3,
+    #mday4 {
+        font-family: 'Century Schoolbook', sans-serif;
+        font-size: 110px;
+        letter-spacing: -10px;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 12rem;
+        left: -14rem;
+        opacity: 1;
+        color: white;
+    }
+    #news-1 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 55vh;
+        position: absolute;
+        left: 7%;
+        top: 250px;
+        z-index: 1;
+
+    }
+
+    #news-2,
+    #news-3,
+    #news-4 {
+        font-size: 36px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 55vh;
+        position: absolute;
+        left: 5%;
+        top: 250px;
+        z-index: 1;
+    }
+
+
+}
+
+
+
+
+@media(max-width:576px) {
+    nav {
+        height: 50px;
+    }
+
+    nav .col-2 img {
+        width: 107px;
+        height: 30px;
+
+    }
+
+    #burger {
+        width: 32px;
+        height: 17px;
+        line-height: unset;
+    }
+
+    #burger-btn {
+        height: 17px;
+        font-size: 20px;
+
+    }
+
+    #bannar2 {
+        padding-top: 50px;
+    }
+
+    .bannar2 .container2 {
+        width: 100%;
+    }
+
+    #videoplay {
+        height: calc(100vh - 50px);
+        min-height: 736px;
+    }
+
+    .bannar2 #video-logo img {
+        width: 230px;
+        height: 55px;
+    }
+
+    .bannar2 #video-text img {
+        width: 288px;
+        height: 41px;
+    }
+
+    .main2 {
+        margin: unset;
+
+
+    }
+
+    #news-backgro {
+        height: calc(100vh - 50px);
+        min-height: 736px;
+        /* overflow-y: hidden; */
+    }
+
+    #inside-logo {
+
+        right: 5rem;
+        bottom: -250px;
+
+    }
+
+    #inside-logo2 {
+
+        right: 5rem;
+        top: -400px;
+        display: none;
+
+    }
+
+    .main2 #news {
+
+        font-size: 10vw;
+        top: 20px;
+        left: 25px;
+
+        opacity: 0.5;
+
+    }
+
+    .main2 #news-eng {
+
+        font-size: 23vw;
+
+
+        top: 80px;
+        left: 25px;
+
+        opacity: 0.5;
+
+
+    }
+
+    .main2 .container2 {
+        padding: unset;
+    }
+
+    /* #news-backgro #news-box1 {
+        padding: unset;
+        padding-top: 20px;
+    } */
+
+    /* #news-backgro .container2 {
+        display: flex;
+    } */
+
+    .newspic img {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .main2 #news,
+    .main2 #news-eng {
+        left: 25px;
+        padding: unset;
+    }
+
+    #news-1 {
+        font-size: 26px;
+        color: white;
+        font-family: 微軟正黑體;
+        text-align: left;
+        margin-top: 160px;
+        position: absolute;
+        left: 3%;
+        top: 250px;
+        z-index: 1;
+
+    }
+
+    #news-2,
+    #news-3,
+    #news-4 {
+        font-size: 26px;
+        color: white;
+        font-family: 新細明體;
+        text-align: left;
+        margin-top: 160px;
+        position: absolute;
+        left: 3%;
+        top: 250px;
+        z-index: 1;
+    }
+
+
+
+    #news-box1,
+    #news-box3,
+    #news-box2,
+    #news-box4 {
+        padding: unset;
+        padding-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0;
+    }
+
+    #arrow {
+
+        top: 600px;
+        position: absolute;
+        left: -50px;
+
+
+
+
+    }
+
+    #arrow img {
+
+        width: 110%;
+        height: 10px;
+
+    }
+
+    #more {
+        font-size: 24px;
+        margin-left: 20px
+    }
+
+    #mday,
+    #mday2,
+    #mday3,
+    #mday4 {
+        letter-spacing: 0;
+        font-size: 3rem;
+        top: 120px;
+        left: -7.5rem;
+        z-index: 2;
+
+
+    }
+    .page-last, .page, .page-next{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+    .imgarrow img{
+    width: 75px;
+    height: 75px;
+}
+.forpad{
+    height: 50px;width: 100%;
+}
+
+}
+

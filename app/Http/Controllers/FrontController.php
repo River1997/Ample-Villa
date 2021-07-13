@@ -27,10 +27,10 @@ class FrontController extends Controller
         return view('front.member.success');
     }
     public function profile1(){
-        return view('front.member.profile-1');
+        return view('front.member.member-profile-1');
     }
     public function profile2(){
-        return view('front.member.profile-2');
+        return view('front.member.member-profile-2');
     }
     public function reservation1(){
         return view('front.member.reservation-1');
@@ -42,15 +42,15 @@ class FrontController extends Controller
         return view('front.member.connection-2');
     }
 
-
-
-
-    public function rent(){
-        return view('front.rent.rent');
+    public function news(){
+        return view('front.news.news');
     }
-    public function rentroom(){
-        return view('front.rent.rent-room');
-    }
+
+
+
+
+
+
     public function rentroom2(){
         return view('front.rent.rent-room2');
     }
@@ -64,12 +64,17 @@ class FrontController extends Controller
         return view('front.rent.rent-success');
     }
 
+    public function room(){
+        return view('front.room.rooms');
+    }
+
+
     public function landscape(){
         return view('front.landscape.landscape');
     }
 
     public function service(){
-        return view('front.service.service-equipment');
+        return view('front.service-equipment.service-equipment');
     }
 
 

@@ -94,14 +94,14 @@
                                 @csrf
                             </form> --}}
 
-                            <a class="dropdown-item" href="">會員專區</a>
+                            <a class="dropdown-item" href="{{ asset("/member/profile-1") }}">會員專區</a>
                         </div>
                     </li>
                     @endguest
                     <li class="burgar-link"><a href="{{ asset('/about_us') }}">關於Ample Villa</a></li>
-                    <li class="burgar-link"><a href="{{ asset('front.news.index') }}">最新消息</a></li>
-                    <li class="burgar-link"><a href="{{ asset('/member/register') }}">房型一覽</a></li>
-                    <li class="burgar-link"><a href="{{ asset('/servive/service-equipment') }}">服務及設施</a></li>
+                    <li class="burgar-link"><a href="{{ asset('/news/news') }}">最新消息</a></li>
+                    <li class="burgar-link"><a href="{{ asset('/room') }}">房型一覽</a></li>
+                    <li class="burgar-link"><a href="{{ asset('/service') }}">服務及設施</a></li>
                     <li class="burgar-link"><a href="{{ asset('/landscape') }}">附近風景</a></li>
                     <li class="burgar-link room"><a href="{{ asset('/rent') }}">線上訂房</a></li>
                     <li class="burgar-logout">

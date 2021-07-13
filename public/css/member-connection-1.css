@@ -1,0 +1,21 @@
+.title-2{
+    color: rgb(63, 117, 147);
+    font-size: 40px;
+    font-weight: 600;
+    padding-left:10%;
+    margin: 90px 0 70px 0;
+}
+.connect{
+    position: relative;
+    margin-bottom: 180px;
+}
+.title-2{
+    position: absolute;
+    top: 275px;
+    left: 0;
+
+   
+}
+#summernote{
+    height: 500px;
+}

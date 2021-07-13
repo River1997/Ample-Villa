@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +11,7 @@
     <link rel="stylesheet" href="css/sample.css">
     <link rel="stylesheet" href="css/member-login.css">
    <link rel="stylesheet" href="css/member-reservation-1.css">
-    
+
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -126,8 +127,8 @@
                         </ul>
                     </nav>
                 </div>
-                
-                
+
+
             </div>
 
 
@@ -201,13 +202,13 @@
 
 
         box1.onclick = function(){
-            
+
             if ( box1.classList.contains('checked')) {
                 box1.classList.remove('checked')
             }else{
                 box1.classList.add('checked')
             }
-        } 
+        }
 
     </script>
 </body>
