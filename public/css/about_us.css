@@ -191,9 +191,9 @@
 
     }
 
-    .p::after{
+    .p::after {
         left: 7.5%;
-        bottom: 2%;
+        bottom: 2.5%;
     }
 
 
@@ -300,6 +300,10 @@
         height: 1000px;
     }
 
+    .p::after {
+        left: 7.5%;
+        bottom: 2.3%;
+    }
     .cover-about-us-03 img{
 
         height: 1000px;
@@ -328,7 +332,10 @@
     .p{
         height: 800px;
     }
-
+    .p::after {
+        left: 7.5%;
+        bottom: 1.9%;
+    }
     .cover-about-us-03 img{
 
         height: 800px;
@@ -470,7 +477,10 @@
     .p{
         height: 640px;
     }
-
+    .p::after {
+        left: 7.5%;
+        bottom: 1.5%;
+    }
     .cover-about-us-03 img{
 
         height: 640px;
