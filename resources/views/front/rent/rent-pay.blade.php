@@ -118,9 +118,10 @@
             font-size: 26px;
 
         }
-        .day .form-control{
+
+        .day .form-control {
             padding: unset;
-            padding:0 .75rem
+            padding: 0 .75rem
         }
 
 
@@ -166,10 +167,11 @@
 
 
         }
-        #arrivaltime{
+
+        #arrivaltime {
             font-family: 微軟正黑體;
             font-size: 20px;
-       
+
         }
 
 
@@ -236,10 +238,11 @@
         }
 
         .room-eng {
-            
+
             letter-spacing: -5px;
         }
-        .room-title .col-7{
+
+        .room-title .col-7 {
             text-align: center;
         }
 
@@ -301,14 +304,14 @@
             font-weight: bold;
             letter-spacing: -5px;
             font-size: 48px;
-            margin:8% 0;
+            margin: 8% 0;
             font-family: 微軟正黑體;
         }
 
 
         .number-group {
             width: 100%;
-            
+
         }
 
         .room-number {
@@ -318,12 +321,13 @@
             margin-bottom: 8%;
             letter-spacing: -2px;
             /* margin-bottom: 7%;
-           
+
             margin-right: -15px; */
 
 
         }
-        .room-number1 select{
+
+        .room-number1 select {
             border: solid rgb(184, 226, 255);
             font-size: 22px;
         }
@@ -353,7 +357,7 @@
 
         }
 
-        #remark{
+        #remark {
             height: 300px;
         }
 
@@ -393,7 +397,7 @@
                 font-size: 32px;
 
             } */
-            .room-title .col-7{
+            .room-title .col-7 {
                 line-height: unset;
             }
 
@@ -451,7 +455,7 @@
                 margin-bottom: 2%;
                 letter-spacing: 0em;
                 /* margin-bottom: 7%;
-           
+
             margin-right: -15px; */
 
 
@@ -575,10 +579,11 @@
         }
 
         @media(max-width:1500px) {
-            .room-information{
+            .room-information {
                 margin-right: -1rem;
             }
-            .room-target{
+
+            .room-target {
                 width: 28%;
             }
 
@@ -586,7 +591,8 @@
                 font-size: 30px;
 
             }
-            .room-title .col-7{
+
+            .room-title .col-7 {
                 line-height: 40px;
             }
 
@@ -598,7 +604,7 @@
                 height: 36px;
 
                 margin: 0 0 0 -2px;
-                
+
             }
 
             .room-line {
@@ -771,6 +777,7 @@
                 /* height: 2000px; */
 
             }
+
             .container4 {
                 width: 99%;
             }
@@ -796,19 +803,24 @@
                 text-align: center;
                 font-size: 48px;
             }
-            .room-title{
+
+            .room-title {
                 font-size: 26px;
             }
-            .room-eng{
+
+            .room-eng {
                 letter-spacing: -2px;
             }
-            .room-title .col-7{
+
+            .room-title .col-7 {
                 line-height: 30px;
             }
-            .peoples{
-                margin:10px 0 0 -2px
+
+            .peoples {
+                margin: 10px 0 0 -2px
             }
-            .room-first{
+
+            .room-first {
                 margin-top: 0;
             }
 
@@ -828,7 +840,7 @@
         @media(max-width:1199px) {
             #rent-title {
                 margin-top: 0vh;
-            
+
             }
 
             #rent-information {
@@ -1165,6 +1177,7 @@
                 font-size: 24px;
                 height: 40px;
             }
+
             .number-group {
                 margin: unset;
                 height: 30px;
@@ -1204,6 +1217,7 @@
                 /* height: 2000px; */
 
             }
+
             .room-pic {
                 width: 100%;
                 margin: 5px 10px;
@@ -1261,7 +1275,7 @@
 
             .empty-room {
 
-                font-size: 24px; 
+                font-size: 24px;
                 text-align: center;
 
                 margin: 2px 0 1rem 24px;
@@ -1269,7 +1283,7 @@
             }
 
             .room-price {
-               
+
 
                 font-size: 36px;
                 margin-bottom: 1rem;
@@ -1316,7 +1330,7 @@
 
             .rent-now {
                 width: 97%;
-                margin-left:0.2rem;
+                margin-left: 0.2rem;
             }
 
 
@@ -1367,7 +1381,8 @@
                 padding: 40px 34px;
 
             }
-            .peoples{
+
+            .peoples {
                 font-size: 16px;
             }
 
@@ -1379,7 +1394,8 @@
                 text-align: center;
                 font-size: 30px;
             }
-            .room-target{
+
+            .room-target {
                 margin-top: 0px;
             }
 
@@ -1425,6 +1441,7 @@
                 /* height: 2000px; */
 
             }
+
             /* .peoples{
                 font-size: ;
             } */
@@ -1497,9 +1514,10 @@
         }
 
         @media(max-width:590px) {
-            .peoples{
-                font-size:15px ;
+            .peoples {
+                font-size: 15px;
             }
+
             .empty-room {
 
                 font-size: 24px;
@@ -1525,15 +1543,18 @@
         }
 
         @media(max-width:575px) {
-            .room-title{
+            .room-title {
                 font-size: 24px;
             }
-            .room-eng{
+
+            .room-eng {
                 letter-spacing: -0.1px;
             }
-            .peoples{
-                font-size:18px ;
+
+            .peoples {
+                font-size: 18px;
             }
+
             .room-target {
 
                 padding-bottom: 60%;
@@ -1562,16 +1583,18 @@
         }
 
         @media(max-width:520px) {
-            .room-title{
+            .room-title {
                 font-size: 24px;
             }
-            .room-eng{
+
+            .room-eng {
                 letter-spacing: -0.1px;
             }
-            .peoples{
-                font-size:18px ;
+
+            .peoples {
+                font-size: 18px;
             }
-            
+
             .room-target {
 
                 padding-bottom: 65%;
@@ -1743,7 +1766,7 @@
 
                             </select>
                         </div>
-                        <div class="form-group col-lg-6 pass4 day" >
+                        <div class="form-group col-lg-6 pass4 day">
                             <label for="people">住宿人數</label>
                             <select id="people" class="form-control">
                                 <option selected></option>
@@ -1780,13 +1803,13 @@
                                 <input type="radio" name="single-shower" class="single-shower" value="yes"> Yes
                                 <br>
                                 <input type="radio" name="single-shower" class="single-shower" value="no"> No
-                                
+
 
                             </div>
                         </div>
 
                     </div>
-                    
+
                     <div class="col-xl-3 room">Double Room
                         <div class="row">
                             <div class="col-12 room-radio">
@@ -1848,7 +1871,7 @@
                                                 <div class="row">
                                                     <div class="col-md-7 col-6 room-title" style="padding:unset">
                                                         <div class="row">
-                                                            <div class="col-5 room-eng" >Venus </div>
+                                                            <div class="col-5 room-eng">Venus </div>
                                                             <div class="col-5" style="padding: unset;">豪華房</div>
                                                         </div>
                                                     </div>
@@ -1865,7 +1888,7 @@
                                     <div class="room-target">
                                         <div class="row row3" style="margin:unset">
                                             <div class="col-12" style="padding: unset;">
-                                                
+
                                                 <div class="row" style="margin: unset;">
                                                     <div class="col-12 room-price" style="padding: unset;">NT 32,795
                                                     </div>
@@ -1930,7 +1953,11 @@
                         </div>
                         <!-- <div class="col-xl-6 col-md-4 col-2"></div> -->
                         <div class="col-xl-3 col-md-5 col-6">
-                            <input type="button" value="確認付款" id="pay-now" class="form-control">
+                            <a href="{{ asset("/rent-detail") }}">
+                                <input type="button" value="確認付款" id="pay-now"
+                                    class="form-control">
+                            </a>
+
                         </div>
                     </div>
 
@@ -1991,7 +2018,7 @@
         for (let index = 0; index < arri.length; index++) {
             var arritime = '<option>' + arri[index].a + '</option>'
             arrive.innerHTML += arritime;
-            
+
         }
         var rooms = document.querySelector('.rooms');
         var room = [{ r: '1間' }, { r: '2間' }, { r: '3間' }, { r: '4間' }];
@@ -2024,14 +2051,14 @@
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

@@ -25,6 +25,7 @@
 
             box-sizing: border-box;
         }
+
         .rdobutton_label {
             position: relative;
             display: block;
@@ -90,10 +91,10 @@
 
         .bot input:checked+label {
             background-color: #0b83a1;
-            
+
             border: 1px solid white 10px;
             cursor: pointer;
-           
+
         }
 
         .bot input:checked+label::after {
@@ -204,9 +205,10 @@
             font-size: 26px;
 
         }
-        .day .form-control{
+
+        .day .form-control {
             padding: unset;
-            padding:0 .75rem
+            padding: 0 .75rem
         }
 
 
@@ -252,10 +254,11 @@
 
 
         }
-        #arrivaltime{
+
+        #arrivaltime {
             font-family: 微軟正黑體;
             font-size: 20px;
-       
+
         }
 
 
@@ -322,10 +325,11 @@
         }
 
         .room-eng {
-            
+
             letter-spacing: -5px;
         }
-        .room-title .col-7{
+
+        .room-title .col-7 {
             text-align: center;
         }
 
@@ -357,7 +361,7 @@
 
         }
 
-        
+
         .room-target {
             line-height: 40px;
             width: 27%;
@@ -388,14 +392,14 @@
             font-weight: bold;
             letter-spacing: -5px;
             font-size: 48px;
-            margin:8% 0;
+            margin: 8% 0;
             font-family: 微軟正黑體;
         }
 
 
         .number-group {
             width: 100%;
-            
+
         }
 
         .room-number {
@@ -405,12 +409,13 @@
             margin-bottom: 8%;
             letter-spacing: -2px;
             /* margin-bottom: 7%;
-           
+
             margin-right: -15px; */
 
 
         }
-        .room-number1 select{
+
+        .room-number1 select {
             border: solid rgb(184, 226, 255);
             font-size: 22px;
         }
@@ -440,7 +445,7 @@
 
         }
 
-        #remark{
+        #remark {
             height: 300px;
         }
 
@@ -582,7 +587,7 @@
                 margin-bottom: 2%;
                 letter-spacing: 0em;
                 /* margin-bottom: 7%;
-           
+
             margin-right: -15px; */
 
 
@@ -892,6 +897,7 @@
                 /* height: 2000px; */
 
             }
+
             .container4 {
                 width: 99%;
             }
@@ -1309,6 +1315,7 @@
                 /* height: 2000px; */
 
             }
+
             .room-pic {
                 width: 100%;
                 margin: 5px 10px;
@@ -1479,7 +1486,7 @@
                 font-size: 16pt;
             }
 
-         
+
 
             #rent-information {
                 text-align: center;
@@ -1645,7 +1652,8 @@
             .spare-line {
                 margin: 50px 0;
             }
-            .forrwd{
+
+            .forrwd {
                 position: absolute;
                 left: -40px;
             }
@@ -1677,14 +1685,16 @@
                 font-weight: unset;
 
             }
-            #paypay{
+
+            #paypay {
                 margin-top: 1220px;
                 padding-bottom: unset;
                 margin-bottom: 0px;
             }
+
             .card-type2 {
-    margin: 0rem 0 0 0;
-}
+                margin: 0rem 0 0 0;
+            }
 
 
 
@@ -1831,7 +1841,7 @@
 
         }
 
-        
+
 
 
         /* .rdobutton_radio{
@@ -1970,7 +1980,7 @@
                                 oninput="value=value.replace(/[^\d]/g,'')" readonly>
                             <!-- <select id="inputDay" class="form-control" >
                                 <option selected></option>
-                              
+
 
 
 
@@ -1982,7 +1992,7 @@
                                 oninput="value=value.replace(/[^\d]/g,'')" readonly>
                             <!-- <select id="people" class="form-control">
                                 <option selected></option>
-                               
+
                             </select> -->
                         </div>
                     </div>
@@ -2045,29 +2055,29 @@
                                             <div class="col-12">信用卡別:</div>
                                         </div>
                                         <div class="row card-type">
-    
+
                                             <div class="col-xl-6 col-12">
                                                 <div class="row">
-                                                    <div class="col-md-4 col-4" style="display: flex;padding: unset;"><input
-                                                            type="radio" name="paycard" id="pay-visa"
+                                                    <div class="col-md-4 col-4" style="display: flex;padding: unset;">
+                                                        <input type="radio" name="paycard" id="pay-visa"
                                                             class="rdobutton_radio">
                                                         <label for="pay-visa" class="rdobutton_label"></label>
                                                         <div class="payword2">VISA</div>
                                                     </div>
-                                                    <div class="col-md-4 col-5" style="display: flex;padding: unset;"><input
-                                                            type="radio" name="paycard" id="pay-master"
+                                                    <div class="col-md-4 col-5" style="display: flex;padding: unset;">
+                                                        <input type="radio" name="paycard" id="pay-master"
                                                             class="rdobutton_radio">
                                                         <label for="pay-master" class="rdobutton_label"></label>
                                                         <div class="payword2">Master</div>
                                                     </div>
-                                                    <div class="col-md-4 col-3" style="display: flex;padding: unset;"><input
-                                                            type="radio" name="paycard" id="pay-jcb"
+                                                    <div class="col-md-4 col-3" style="display: flex;padding: unset;">
+                                                        <input type="radio" name="paycard" id="pay-jcb"
                                                             class="rdobutton_radio">
                                                         <label for="pay-jcb" class="rdobutton_label"></label>
                                                         <div class="payword2">JCB</div>
                                                     </div>
                                                 </div>
-    
+
                                             </div>
                                         </div>
                                         <div class="form-row">
@@ -2082,12 +2092,12 @@
                                         </div>
                                         <div class="form-row card-type2">
                                             <div class="form-group col-xl-6 col-12">
-    
+
                                                 <label for="credit-time" class="creditcard">卡片效期(ex:4月16日)</label>
                                                 <div class="row" id="credit-time">
                                                     <div class="col-5" style="padding: unset;padding-left: 15px;">
                                                         <input type="text" class="form-control" id="card-month">
-    
+
                                                     </div>
                                                     <div class="col-1" style="padding: unset;">月</div>
                                                     <div class="col-5" style="padding: unset;">
@@ -2118,7 +2128,7 @@
                                             <input type="text" class="form-control" id="master-ID">
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
 
@@ -2134,7 +2144,10 @@
                         </div>
                         <!-- <div class="col-xl-6 col-md-4 col-2"></div> -->
                         <div class="col-xl-3 col-md-5 col-6">
-                            <input type="button" value="確認付款" id="pay-now" class="form-control">
+                            <a href="{{ asset("/rent-success") }}">
+                                <input type="button" value="確認付款" id="pay-now" class="form-control">
+                            </a>
+
                         </div>
                     </div>
 
@@ -2187,14 +2200,14 @@
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
