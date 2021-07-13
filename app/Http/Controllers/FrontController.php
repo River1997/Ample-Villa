@@ -24,7 +24,7 @@ class FrontController extends Controller
         return view('front.member.member-login');
     }
     public function success(){
-        return view('front.member.success');
+        return view('front.member.member-success');
     }
     public function profile1(){
         return view('front.member.member-profile-1');
@@ -33,13 +33,17 @@ class FrontController extends Controller
         return view('front.member.member-profile-2');
     }
     public function reservation1(){
-        return view('front.member.reservation-1');
+        return view('front.member.member-reservation-1');
     }
     public function reservation2(){
-        return view('front.member.reservation-2');
+        return view('front.member.member-reservation-2');
     }
+    public function connection1(){
+        return view('front.member.member-connection-1');
+    }
+
     public function connection2(){
-        return view('front.member.connection-2');
+        return view('front.member.member-connection-2');
     }
 
     public function news(){
