@@ -8,7 +8,7 @@
 
 @section('css')
 
-<link rel="stylesheet" href="{{ asset(("css/index.css")) }}">
+<link rel="stylesheet" href="{{ asset("css/index-by-sheng.css") }}">
 @endsection
 
 @section('content')
@@ -117,83 +117,88 @@
             <div class="col-12" id="news-backgro">
                 <div class="container2">
                     <div class="row" id="news-box1">
-                        <div class="col-xl-9" id="news-1">
+                        <div class="col-xl-9 col-9" id="news-1">
                             三月是雙魚和牡羊朋友的大日子
                         </div>
                         <div class="col-xl-3"></div>
-                        <div class="col-xl-6 newspic" style="position: relative;display: flex;"><img alt="gallery"
-                                class="w-full object-cover h-full object-center block"
+                        <div class="col-xl-6 col-12 newspic" style="position: relative;display: flex;"><img
+                                alt="gallery" class="w-full object-cover h-full object-center block"
                                 src="{{ asset("img-index/最新消息-圖1.png") }}">
-
-                                <div class="day">
+                            <div class="row">
+                                <div class="col-3" style="padding: unset;">
                                     <span id="mday"></span>
                                 </div>
-
+                            </div>
                         </div>
 
                     </div>
 
                     <div class="row" id="news-box2">
 
-                        <div class="col-xl-9" id="news-2">
+                        <div class="col-xl-9 col-9" id="news-2">
                             三月是雙魚和牡羊朋友的大日子
                         </div>
                         <div class="col-xl-6"></div>
-                        <div class="col-xl-6 newspic" style="position: relative;display: flex;"><img alt="gallery"
-                                class="w-full object-cover h-full object-center block"
+                        <div class="col-xl-6 col-12 newspic" style="position: relative;display: flex;"><img
+                                alt="gallery" class="w-full object-cover h-full object-center block"
                                 src="{{ asset("img-index/最新消息-圖2.png") }}">
-
-                                <div class="day" style="padding: unset;">
+                            <div class="row">
+                                <div class="col-3" style="padding: unset;">
                                     <span id="mday2"></span>
                                 </div>
-
+                            </div>
                         </div>
 
 
                     </div>
                     <div class="row" id="news-box3">
-                        <div class="col-xl-9" id="news-3">
+                        <div class="col-xl-9 col-9" id="news-3">
                             三月是雙魚和牡羊朋友的大日子
                         </div>
                         <div class="col-xl-3"></div>
-                        <div class="col-xl-6 newspic" style="position: relative;display: flex;"><img alt="gallery"
-                                class="w-full object-cover h-full object-center block"
+                        <div class="col-xl-6 col-12 newspic" style="position: relative;display: flex;"><img
+                                alt="gallery" class="w-full object-cover h-full object-center block"
                                 src="{{ asset("img-index/最新消息-圖3.png") }}">
-
-                                <div class="day" style="padding: unset;">
+                            <div class="row">
+                                <div class="col-3" style="padding: unset;">
                                     <span id="mday3"></span>
                                 </div>
-
+                            </div>
                         </div>
 
                     </div>
 
                     <div class="row" id="news-box4">
 
-                        <div class="col-xl-9" id="news-4">
+                        <div class="col-xl-9 col-9" id="news-4">
                             三月是雙魚和牡羊朋友的大日子
                         </div>
-                        <div class="col-xl-6" ></div>
-                        <div class="col-xl-6 newspic" style="position: relative;display: flex;"><img alt="gallery"
-                                class="w-full object-cover h-full object-center block"
+                        <div class="col-xl-6"></div>
+                        <div class="col-xl-6 col-12 newspic" style="position: relative;display: flex;"><img
+                                alt="gallery" class="w-full object-cover h-full object-center block"
                                 src="{{ asset("img-index/最新消息-圖4.png") }}">
-
-                                <div class="day" style="padding: unset;">
+                            <div class="row">
+                                <div class="col-3" style="padding: unset;">
                                     <span id="mday4"></span>
                                 </div>
-
+                            </div>
                         </div>
 
 
                     </div>
                     <div class="row" style="height: 150px;width: 100%;"></div>
+
+
+
+
+
                 </div>
 
             </div>
             <div class="row" id="arrow">
                 <div class="col-8" style="padding: unset;">
                     <a href="" style="text-decoration: none;color: white;">
-                        <img src="{{asset("img-index/內文-指標1.png") }}" alt="">
+                        <img src="{{ asset("img-index/內文-指標1.png") }}" alt="">
                         <img src="{{ asset("img-index/內文-指標2.png") }}" alt="">
                     </a>
                 </div>
@@ -202,6 +207,7 @@
                 </div>
 
             </div>
+
         </div>
         <div class="row" style="margin: unset;padding-top: 110px;">
             <div class="container2" style="position: relative;">
@@ -217,40 +223,7 @@
             </div>
 
         </div>
-        {{-- <div class="row" style="position:relative;margin: unset;margin-top: 40px;">
-            <div class="container3">
-                <div class="col-12 mapbox">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1806.200026829416!2d121.86017658530668!3d25.122162344672223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8b917afc400df58b!2sAmple%20Villa!5e0!3m2!1szh-TW!2stw!4v1625465980639!5m2!1szh-TW!2stw"
-                        width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-                </div>
-            </div>
-            <div class="col-4" style="position: absolute;top: 600px;left: -8rem;"><img src="./img-index/地圖-指針圖案.png"
-                    alt="" id="map-pic"></div>
-
-        </div>
-        <div class="row" style="padding-top: 85px;margin: auto;">
-            <div class="col-4"></div>
-            <div class="col-4" id="focus-us">關注我們
-
-            </div>
-        </div>
-        <div class="row" style="margin: unset;margin-top: 25px;">
-            <div class="col-xl-4 col-md-2 col-1" style="padding: unset;"></div>
-            <div class="col-xl-4 col-md-8 col-10" style="padding: unset;">
-                <div class="row">
-                    <div class="col-4" style="text-align: right;padding: unset;">
-                        <img src="./img-index/fb.png" alt="">
-                    </div>
-                    <div class="col-4" style="text-align: center;padding: unset;"><img src="./img-index/ig.png" alt="">
-                    </div>
-                    <div class="col-4" style="text-align: left;padding: unset;"><img src="./img-index/email.png" alt="">
-                    </div>
-                </div>
-            </div>
-
-        </div> --}}
+      
     </div>
     <footer></footer>
 
