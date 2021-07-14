@@ -156,6 +156,8 @@
                     <div class="compass"><img src="./img/地圖-指針圖案.png" alt="" style="max-width:414px;"></div>
 
                 </div>
+                <br>
+                <br><br>
                 {{-- <div class="text">
                     <div class="text-getting">Getting Here</div>
                     <div class="seagull"><img src="{{ asset('/img/海鷗.png') }}." alt=""></div>

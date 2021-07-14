@@ -351,6 +351,7 @@ nav .col-2 img {
     background-color: rgb(93, 194, 235);
     width: 255px;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 .mapbox {
