@@ -17,7 +17,7 @@
 }
 
 .btn-group-1{
-    width: 85%;
+    width: 71.73%;
 
     height: 68px;
     margin: auto;
@@ -39,7 +39,7 @@ a:hover{
     padding: 10px 24px;
 
     float: left;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 /* .btn-group-1 a:not(:last-child) {

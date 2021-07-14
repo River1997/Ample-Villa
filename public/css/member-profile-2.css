@@ -17,7 +17,8 @@
 }
 
 .btn-group-1{
-   padding: 0 50px 0 50px;
+    width: 71.73%;
+
     height: 68px;
     margin: auto;
     text-align: center;
@@ -31,16 +32,15 @@ a:hover{
     list-style: none !important;
 }
 .btn-group-1 a{
-    width: 400px;
+    width: 33%;
     background-color: white;
     border: 1px solid rgb(138,185,223);
     color: rgb(138,185,223);
     padding: 10px 24px;
 
     float: left;
-    font-size: 26px;
+    font-size: 24px;
 }
-
 /* .btn-group-1 a:not(:last-child) {
     border-right: none; /* Prevent double borders */
 
