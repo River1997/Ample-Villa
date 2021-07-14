@@ -21,7 +21,7 @@
 }
 
 .btn-group-1{
-   
+   padding: 0 50px 0 50px ;
     height: 68px;
     margin: auto;
     text-align: center;
@@ -36,31 +36,31 @@ a:hover{
 }
 .btn-group-1 a{
     width: 400px;
-    background-color: white; 
-    border: 1px solid rgb(138,185,223); 
-    color: rgb(138,185,223); 
-    padding: 10px 24px; 
-    
-    float: left; 
+    background-color: white;
+    border: 1px solid rgb(138,185,223);
+    color: rgb(138,185,223);
+    padding: 10px 24px;
+
+    float: left;
     font-size: 26px;
 }
-  
+
 /* .btn-group-1 a:not(:last-child) {
     border-right: none; /* Prevent double borders */
 
-  
+
   /* Clear floats (clearfix hack) */
 /* .btn-group-1:after {
     content: "";
     clear: both;
     display: table;
 } */
-  
+
   /* Add a background color on hover */
 .btn-group-1 a:hover {
     background-color: rgb(138,185,223);
     color: white;
-    border: 1px  rgb(138,185,223); 
+    border: 1px  rgb(138,185,223);
 }
 
 .btn-group-1 a.active {
@@ -132,12 +132,12 @@ a:hover{
 @media(max-width:1450px){
     .btn-group-1 a {
         width: 300px;
-    }    
+    }
 }
 @media(max-width:1140px){
     .btn-group-1 a {
         width: 250px;
-    }    
+    }
 }
 @media(max-width:970px){
     .btn-group-1::after {
@@ -146,13 +146,13 @@ a:hover{
         top: 1107px;
         right: 8%;
         width: 82%;
-        
+
     }
 }
 @media(max-width:900px){
     .btn-group-1 a {
         width: 200px;
-    }    
+    }
 }
 @media (max-width: 860px){
     .btn-group-1::after {
@@ -165,9 +165,9 @@ a:hover{
 }
 @media(max-width:800px){
     .title-1 {
-       
+
         font-size: 40px;
-        
+
         margin: 20px 0 20px 0;
     }
     .profile-form .form-group {
@@ -181,14 +181,14 @@ a:hover{
     }
     .profile-form .form-group {
         height: 99px;
-    }    
+    }
 }
 @media(max-width:750px){
     .btn-group-1 a {
         width: 125px;
-    }   
+    }
     .btn-group-1 {
-        height: 98px; 
+        height: 98px;
     }
     .btn-group-1::after {
         content: " ";
@@ -196,7 +196,7 @@ a:hover{
         top: 1135px;
         right: 5%;
         width: 90%;
-    }    
+    }
 }
 @media (max-width: 574px){
     .profile-form .form-number {
@@ -207,14 +207,14 @@ a:hover{
         width: 380px;
         height: 51px;
     }
-    
+
     .btn-group-1::after {
         content: " ";
         position: absolute;
         top: 1107px;
         right: 6%;
         width: 88%;
-      
+
     }
     .button-5 a {
         height: 54px;
@@ -225,7 +225,7 @@ a:hover{
         right: 7%;
     }
     .profile-form .form-number-date {
-        
+
         margin-bottom: 408px;
     }
     .profile-form .reservation-bot {
@@ -248,11 +248,11 @@ a:hover{
         top: -131px;
         right: 4%;
     }
-   
+
 }
 
 /* //以上是profile-1 */
 .profile-form .reservation-bot{
     margin-bottom: 300px;
 }
-    
+

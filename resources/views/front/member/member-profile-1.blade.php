@@ -26,6 +26,9 @@
 <div class="row m-auto login no-gutters">
     <div class="col  white   ">
         <div class="title-1 ">會員專區</div>
+        <div class="container">
+            
+        </div>
         <div class="btn-group-1">
             <div id="btn-1" class="small-button test tab-btn active">會員資料 </div>
             <div id="btn-2" class="small-button test tab-btn">訂房查詢</div>

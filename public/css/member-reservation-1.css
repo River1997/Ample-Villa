@@ -17,7 +17,7 @@
 }
 
 .btn-group-1{
-   
+   padding: 0 50px 0 50px;
     height: 68px;
     margin: auto;
     text-align: center;
@@ -32,31 +32,31 @@ a:hover{
 }
 .btn-group-1 a{
     width: 400px;
-    background-color: white; 
-    border: 1px solid rgb(138,185,223); 
-    color: rgb(138,185,223); 
-    padding: 10px 24px; 
-    
-    float: left; 
+    background-color: white;
+    border: 1px solid rgb(138,185,223);
+    color: rgb(138,185,223);
+    padding: 10px 24px;
+
+    float: left;
     font-size: 26px;
 }
-  
+
 /* .btn-group-1 a:not(:last-child) {
     border-right: none; /* Prevent double borders */
 
-  
+
   /* Clear floats (clearfix hack) */
 /* .btn-group-1:after {
     content: "";
     clear: both;
     display: table;
 } */
-  
+
   /* Add a background color on hover */
 .btn-group-1 a:hover {
     background-color: rgb(138,185,223);
     color: white;
-    border: 1px  rgb(138,185,223); 
+    border: 1px  rgb(138,185,223);
 }
 
 .btn-group-1 a.active {
@@ -120,12 +120,12 @@ a:hover{
 @media(max-width:1450px){
     .btn-group-1 a {
         width: 300px;
-    }    
+    }
 }
 @media(max-width:1140px){
     .btn-group-1 a {
         width: 250px;
-    }    
+    }
 }
 @media(max-width:970px){
     .btn-group-1::after {
@@ -134,19 +134,19 @@ a:hover{
         top: 722px;
         right: 8%;
         width: 82%;
-        
+
     }
 }
 @media(max-width:900px){
     .btn-group-1 a {
         width: 200px;
-    }    
+    }
 }
 @media(max-width:800px){
     .title-1 {
-       
+
         font-size: 40px;
-        
+
         margin: 20px 0 20px 0;
     }
     .profile-form .form-group {
@@ -160,15 +160,15 @@ a:hover{
     }
     .profile-form .form-group {
         height: 99px;
-    }    
+    }
 }
 @media(max-width:750px){
     .btn-group-1 a {
         width: 125px;
-    }   
+    }
     .btn-group-1 {
-        height: 98px; 
-    }    
+        height: 98px;
+    }
 }
 @media (max-width: 574px){
     .profile-form .form-number {
@@ -179,14 +179,14 @@ a:hover{
         width: 380px;
         height: 51px;
     }
-    
+
     .btn-group-1::after {
         content: " ";
         position: absolute;
         top: 1019px;
         right: 6%;
         width: 88%;
-      
+
     }
     .button-5 a {
         height: 54px;
@@ -197,7 +197,7 @@ a:hover{
         right: 7%;
     }
     .profile-form .form-number-date {
-        
+
         margin-bottom: 408px;
     }
 }
@@ -215,7 +215,7 @@ a:hover{
 
 /* //以上是profile */
 
-    
+
 .table-1{
 
     width: 1200px;
@@ -224,20 +224,20 @@ a:hover{
     margin-bottom: 100px;
 }
 .tr-1{
-    width: 170px; 
+    width: 170px;
     border-color: rgb(138, 185, 223) !important;
 }
 .tr-2{
-    width: 250px; 
+    width: 250px;
 }
 .tr-3{
-    width: 334px; 
+    width: 334px;
 }
 .tr-4{
-    width: 317px; 
+    width: 317px;
 }
 .tr-5{
-    width: 150px; 
+    width: 150px;
 }
 .blue-color{
     border-color: rgb(138, 185, 223) !important;
@@ -248,7 +248,7 @@ a:hover{
 }
 .word-re a{
     font-size: 18px;
-   
+
 }
 table thead{
     background-color: rgb(138, 185, 223);
@@ -259,7 +259,7 @@ table thead{
     text-align: center;
 }
 .page {
-    
+
     color: rgb(138, 185, 223) !important;
 }
 .color-deep a{
@@ -271,20 +271,20 @@ table thead{
         width: 900px;
         margin: auto;
         text-align: center;
-       
+
     }
 
     .tr-2{
-        width: 176px; 
+        width: 176px;
     }
     .tr-3{
-        width: 176px; 
+        width: 176px;
     }
     .tr-4{
-        width: 176px; 
+        width: 176px;
     }
     .tr-5{
-        width: 76px; 
+        width: 76px;
     }
 }
 @media(max-width:1140px){
@@ -292,10 +292,10 @@ table thead{
         width:750px;
         margin: auto;
         text-align: center;
-       
+
     }
     .tr-3{
-        width:223px; 
+        width:223px;
     }
 
 }
