@@ -1,6 +1,6 @@
 input:checked~.menu {
     z-index: 1;
-}    
+}
 main{
     max-width: 1920px;
     /* height: calc(100vh - 495px); */
@@ -30,7 +30,7 @@ main{
     height: 99px;
     width: 660px;
     margin: auto;
-    
+
 }
 
 .form-group .email , .form-group .password{
@@ -66,7 +66,7 @@ main{
     position: relative;
 
     margin-bottom: 100px;
-    
+
 
 }
 .button-1 a{
@@ -91,8 +91,8 @@ main{
 }
 .log{
     width: 380px;
-  
-    
+
+
     font-size: 30px;
     margin: auto;
 }
@@ -118,14 +118,14 @@ main{
     }
     .log{
         width: 133px;
-      
+
     }
     .login-form .form-group{
         width: 404px;
-        
-        
+
+
     }
-    
+
 }
 @media(max-width:510px){
     .forget{
@@ -136,4 +136,3 @@ main{
     }
 }
 
-    

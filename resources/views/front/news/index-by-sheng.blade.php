@@ -203,7 +203,7 @@
                     </a>
                 </div>
                 <div class="col-3" style="padding: unset;">
-                    <div id="more">More</div>
+                    <div id="more"><a href="{{ ("/about_us") }}" style="color: white;text-decoration:none;">More</a></div>
                 </div>
 
             </div>

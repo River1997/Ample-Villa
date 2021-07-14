@@ -22,8 +22,8 @@
         <div class="col  white   ">
             <div class="title-1 ">會員專區</div>
             <div class="btn-group-1">
-                <a href="{{ asset("/member/profile-1") }}" class="small-button active">會員資料 </a>
-                <a href="{{ asset("/member/reservation-1") }}" class="small-button">訂房查詢</a>
+                <a href="{{ asset("/member/profile-1") }}" class="small-button ">會員資料 </a>
+                <a href="{{ asset("/member/reservation-1") }}" class="small-button active">訂房查詢</a>
                 <a href="{{ asset("/member/connection-1") }}" class="small-button">聯絡我們</a>
             </div>
             <form class="profile-form">

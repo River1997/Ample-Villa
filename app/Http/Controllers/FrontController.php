@@ -47,7 +47,7 @@ class FrontController extends Controller
     }
 
     public function news(){
-        return view('front.news.news');
+        return view('front.news.news-by-sheng');
     }
 
 
@@ -78,7 +78,7 @@ class FrontController extends Controller
     }
 
     public function service(){
-        return view('front.service-equipment.service-equipment');
+        return view('front.service-equipment.service-equipment-by-sheng');
     }
 
 

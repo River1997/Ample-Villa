@@ -2,7 +2,7 @@
 
 @section('page_title')
 
-會員專區-訂單列表
+會員專區-聯絡我們
 
 @endsection
 
@@ -28,10 +28,10 @@
         <div class="title-1 ">會員專區</div>
         <div class="btn-group-1">
             <div id="btn-1" class="small-button test tab-btn">會員資料 </div>
-            <div id="btn-2" class="small-button test tab-btn active ">訂房查詢</div>
+            <div id="btn-2" class="small-button test tab-btn">訂房查詢</div>
             <div id="btn-3" class="small-button test tab-btn">聯絡我們</div>
         </div>
-        <div id="conetent-1" class="tab-content ">
+        <div id="conetent-1" class="tab-content first">
             <form class="profile-form ">
                 <fieldset disabled>
                     <div class="form-group">
@@ -85,7 +85,7 @@
                 </div>
             </form>
         </div>
-        <div id="conetent-2" class="tab-content first">
+        <div id="conetent-2" class="tab-content">
             <div class="table-1">
                 <table class="table table-bordered  width">
                     <thead>

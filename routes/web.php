@@ -19,7 +19,12 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/', function () {
     // return view('front.news.index');
-    return view('front.news.index');
+    return view('front.news.index-by-sheng');
+});
+
+Route::get('/test', function () {
+    // return view('front.news.index');
+    return view('front.member.member-all');
 });
 
 
@@ -62,7 +67,6 @@ Route::get('/member/reservation-1', 'FrontController@reservation1');
 Route::get('/member/reservation-2', 'FrontController@reservation2');
 Route::get('/member/connection-1', 'FrontController@connection1');
 Route::get('/member/connection-2', 'FrontController@connection2');
-
 
 
 Route::get('/rent', 'FrontController@rentroom2');

@@ -30,7 +30,7 @@
 
     <div class="cover-about-us-05"></div>
     <div class="cover-text-2">
-        <h2>Home</h2>
+        <h2><a href="{{ ("/") }}" style="color: white;text-decoration:none; ">Home</a> </h2>
     </div>
     <div class="cover-about-us-06"><img src="./img-about_us/關於我們-船圖案.png" alt=""></div>
 </div>
