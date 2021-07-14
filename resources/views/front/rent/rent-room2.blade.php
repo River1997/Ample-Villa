@@ -39,7 +39,7 @@
 
                             <div class="col-12 room-class form-control" style="height: unset;">
                                 <div class="row" style="margin: unset;">
-                                    <div class="room-pic"><img src="https://dummyimage.com/501x301" alt=""></div>
+                                    <div class="room-pic"><img src="{{ asset("img-rent/venus.jpg") }}" alt=""></div>
                                     <div class="room-information">
                                         <div class="row row2">
                                             <div class="col-12">
@@ -118,7 +118,7 @@
                         <div class="row" style="margin: unset;">
                             <div class="col-12 room-class form-control" style="height: unset;">
                                 <div class="row" style="margin: unset;">
-                                    <div class="room-pic"><img src="https://dummyimage.com/501x301" alt=""></div>
+                                    <div class="room-pic"><img src="{{ asset("img-rent/Demeter.jpg") }}" alt=""></div>
                                     <div class="room-information">
                                         <div class="row row2">
                                             <div class="col-12">
@@ -197,7 +197,7 @@
                         <div class="row" style="margin: unset;">
                             <div class="col-12 room-class form-control" style="height: unset;">
                                 <div class="row" style="margin: unset;">
-                                    <div class="room-pic"><img src="https://dummyimage.com/501x301" alt=""></div>
+                                    <div class="room-pic"><img src="{{ asset("img-rent/Epona.jpg") }}" alt=""></div>
                                     <div class="room-information">
                                         <div class="row row2">
                                             <div class="col-12">
@@ -276,7 +276,7 @@
                         <div class="row" style="margin: unset;">
                             <div class="col-12 room-class form-control" style="height: unset;">
                                 <div class="row" style="margin: unset;">
-                                    <div class="room-pic"><img src="https://dummyimage.com/501x301" alt=""></div>
+                                    <div class="room-pic"><img src="{{ asset("img-rent/房間一覽-標準房-圖4.png") }}" alt=""></div>
                                     <div class="room-information">
                                         <div class="row row2">
                                             <div class="col-12">
