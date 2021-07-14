@@ -12,6 +12,93 @@ body {
     box-sizing: border-box;
 }
 
+.rdobutton_label {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 5px solid rgb(138, 185, 223);
+    border-radius: 100%;
+    -moz-transition: background-color 0.2s ease-in;
+    -webkit-transition: background-color 0.2s ease-in;
+    -o-transition: background-color 0.2s ease-in;
+    transition: background-color 0.2s ease-in;
+}
+
+.rdobutton_label::before {
+    content: "";
+    position: absolute;
+    top: 12%;
+    left: 13%;
+    width: 22px;
+    height: 22px;
+    background-color: rgb(138, 185, 223);
+    border-radius: 100%;
+    opacity: 0;
+    -moz-transition: opacity 0.2s ease-in;
+    -webkit-transition: opacity 0.2s ease-in;
+    -o-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+}
+
+input:checked+.rdobutton_label {
+    background-color: white;
+}
+
+.rdobutton_radio:checked+.rdobutton_label::before {
+    opacity: 1;
+}
+
+.rdobutton_radio {
+    display: none;
+}
+
+/* .bot {
+    position: relative;
+    line-height: 30px;
+}
+
+.bot input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+
+.bot label {
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+
+.bot input:checked+label {
+    background-color: #0b83a1;
+
+    border: 1px solid white 10px;
+    cursor: pointer;
+
+}
+
+.bot input:checked+label::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 10px;
+    top: 3px;
+    left: 6px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg)
+} */
+
+
+
+
 nav {
     width: 100vw;
     height: 100px;
@@ -104,9 +191,10 @@ main {
     font-size: 26px;
 
 }
-.day .form-control{
+
+.day .form-control {
     padding: unset;
-    padding:0 .75rem
+    padding: 0 .75rem
 }
 
 
@@ -152,7 +240,8 @@ main {
 
 
 }
-#arrivaltime{
+
+#arrivaltime {
     font-family: 微軟正黑體;
     font-size: 20px;
 
@@ -225,7 +314,8 @@ main {
 
     letter-spacing: -5px;
 }
-.room-title .col-7{
+
+.room-title .col-7 {
     text-align: center;
 }
 
@@ -257,6 +347,7 @@ main {
 
 }
 
+
 .room-target {
     line-height: 40px;
     width: 27%;
@@ -287,7 +378,7 @@ main {
     font-weight: bold;
     letter-spacing: -5px;
     font-size: 48px;
-    margin:8% 0;
+    margin: 8% 0;
     font-family: 微軟正黑體;
 }
 
@@ -309,7 +400,8 @@ main {
 
 
 }
-.room-number1 select{
+
+.room-number1 select {
     border: solid rgb(184, 226, 255);
     font-size: 22px;
 }
@@ -339,9 +431,56 @@ main {
 
 }
 
-#remark{
+#remark {
     height: 300px;
 }
+
+
+.paybox {
+    margin: 50px 0 0 0;
+}
+
+.payword {
+    margin: 0 0 0 1rem;
+    font-size: 26px;
+    font-family: 微軟正黑體;
+    /* font-weight: bold; */
+    width: 100%;
+}
+
+.discript-for-pay {
+
+    font-size: 26px;
+    /* font-weight: bold; */
+    font-family: 微軟正黑體;
+    margin: 2rem 0 3rem;
+    color: rgb(193, 39, 45);
+
+}
+
+.card-type {
+    margin: 2rem 0 2rem 0;
+}
+
+.card-type2 {
+    margin: 2rem 0 0 0;
+}
+
+.card-type .col-md-4 label {
+    margin: 0 1rem 0 0;
+}
+
+.form-group .creditcard {
+    font-size: 26px;
+    font-family: 微軟正黑體;
+    /* font-weight: bold; */
+    width: 100%;
+
+
+}
+
+
+
 
 #paypay {
     justify-content: space-between;
@@ -375,12 +514,9 @@ main {
     }
 
 
-    /* .room-title {
+    .room-title {
         font-size: 32px;
 
-    } */
-    .room-title .col-7{
-        line-height: unset;
     }
 
 
@@ -390,7 +526,7 @@ main {
 
         height: 42px;
 
-        /* margin-top: 18px; */
+        margin-top: 8px;
     }
 
     .room-line {
@@ -426,12 +562,12 @@ main {
 
     .number-group {
         width: 100%;
-        /* justify-content: space-between; */
+        justify-content: space-between;
     }
 
     .room-number {
         font-family: 微軟正黑體;
-        font-size: 22px;
+        font-size: 2rem;
         width: 100%;
         line-height: 60px;
         margin-bottom: 2%;
@@ -463,7 +599,7 @@ main {
 
 @media(max-width:1653px) {
     .room-information {
-        margin: 5px 0.5rem 5px 1rem;
+        margin: 5px 1rem 5px;
 
     }
 
@@ -480,7 +616,7 @@ main {
 
         height: 42px;
 
-        /* margin-top: 16px; */
+        margin-top: 8px;
     }
 
     .room-line {
@@ -561,19 +697,10 @@ main {
 }
 
 @media(max-width:1500px) {
-    .room-information{
-        margin-right: -1rem;
-    }
-    .room-target{
-        width: 28%;
-    }
 
     .room-title {
-        font-size: 30px;
+        font-size: 28px;
 
-    }
-    .room-title .col-7{
-        line-height: 40px;
     }
 
 
@@ -583,8 +710,7 @@ main {
 
         height: 36px;
 
-        margin: 0 0 0 -2px;
-
+        margin-top: 6px;
     }
 
     .room-line {
@@ -663,7 +789,7 @@ main {
 
 @media(max-width:1400px) {
     .room-title {
-        font-size: 28px;
+        font-size: 22px;
 
     }
 
@@ -674,7 +800,7 @@ main {
 
         height: 36px;
 
-        /* margin-top: 14px; */
+        margin-top: 6px;
     }
 
     .room-line {
@@ -683,7 +809,7 @@ main {
     }
 
     .room-first {
-        margin-top: 0.2%;
+        margin-top: 0.5%;
 
         font-size: 18px;
 
@@ -757,6 +883,7 @@ main {
         /* height: 2000px; */
 
     }
+
     .container4 {
         width: 99%;
     }
@@ -773,7 +900,6 @@ main {
     }
 
 
-
     #rent-title {
         font-size: 60px;
     }
@@ -781,21 +907,6 @@ main {
     #rent-information {
         text-align: center;
         font-size: 48px;
-    }
-    .room-title{
-        font-size: 26px;
-    }
-    .room-eng{
-        letter-spacing: -2px;
-    }
-    .room-title .col-7{
-        line-height: 30px;
-    }
-    .peoples{
-        margin:10px 0 0 -2px
-    }
-    .room-first{
-        margin-top: 0;
     }
 
     #back-index {
@@ -814,7 +925,6 @@ main {
 @media(max-width:1199px) {
     #rent-title {
         margin-top: 0vh;
-
     }
 
     #rent-information {
@@ -885,16 +995,16 @@ main {
     }
 
     .room-title {
-        font-size: 24px;
+        font-size: 22px;
 
     }
 
 
     .peoples {
 
-        font-size: 20px;
+        font-size: 12px;
 
-        height: 32px;
+        height: 28px;
 
         margin-top: 8px;
     }
@@ -924,23 +1034,23 @@ main {
 
     .room-price {
 
-        font-size: 30px;
+        font-size: 26pt;
         margin: 2%;
 
     }
 
     .number-group {
         margin: unset;
-        height: 30px;
+        height: 30pt;
         margin-bottom: 2%;
     }
 
     .room-number {
 
 
-        font-size: 14px;
-        height: 30px;
-        line-height: 30px;
+        font-size: 14pt;
+        height: 30pt;
+        line-height: 30pt;
 
 
 
@@ -948,12 +1058,12 @@ main {
     }
 
     .form-group .room-target .number-group select {
-        font-size: 24px;
+        font-size: 24pt;
         height: 35px;
     }
 
     .room-number2 {
-        font-size: 14px;
+        font-size: 14pt;
         margin-top: 0rem;
 
 
@@ -969,7 +1079,7 @@ main {
     .rent-now {
 
         height: 2.5rem;
-        font-size: 26px;
+        font-size: 26pt;
 
         line-height: 2.5rem;
 
@@ -981,12 +1091,12 @@ main {
 
 
     #back-index {
-        font-size: 28px;
+        font-size: 28pt;
 
     }
 
     #pay-now {
-        font-size: 28px;
+        font-size: 28pt;
 
     }
 }
@@ -994,7 +1104,7 @@ main {
 @media(max-width:1135px) {
     .empty-room {
 
-        font-size: 16px;
+        font-size: 16pt;
 
         margin: 0% 0 2%;
 
@@ -1002,23 +1112,23 @@ main {
 
     .room-price {
 
-        font-size: 26px;
+        font-size: 26pt;
         margin-bottom: 2%;
 
     }
 
     .number-group {
         margin: unset;
-        height: 30px;
+        height: 30pt;
         margin-bottom: 4%;
     }
 
     .room-number {
 
 
-        font-size: 14px;
-        height: 30px;
-        line-height: 30px;
+        font-size: 14pt;
+        height: 30pt;
+        line-height: 30pt;
 
 
 
@@ -1026,7 +1136,7 @@ main {
     }
 
     .room-number2 {
-        font-size: 14px;
+        font-size: 14pt;
 
 
 
@@ -1041,7 +1151,7 @@ main {
     .rent-now {
 
         height: 2.5rem;
-        font-size: 26px;
+        font-size: 26pt;
 
         line-height: 2.5rem;
 
@@ -1052,7 +1162,7 @@ main {
 @media(max-width:1080px) {
     .empty-room {
 
-        font-size: 16px;
+        font-size: 16pt;
 
         margin: 0% 0 2%;
 
@@ -1060,23 +1170,23 @@ main {
 
     .room-price {
 
-        font-size: 26px;
+        font-size: 26pt;
         margin-bottom: 1%;
 
     }
 
     .number-group {
         margin: unset;
-        height: 30px;
+        height: 30pt;
         margin-bottom: 2%;
     }
 
     .room-number {
 
 
-        font-size: 14px;
-        height: 30px;
-        line-height: 30px;
+        font-size: 14pt;
+        height: 30pt;
+        line-height: 30pt;
 
 
 
@@ -1084,7 +1194,7 @@ main {
     }
 
     .room-number2 {
-        font-size: 14px;
+        font-size: 14pt;
 
 
 
@@ -1092,7 +1202,7 @@ main {
     }
 
     .form-group .room-target input {
-        font-size: 24px;
+        font-size: 24pt;
         height: 40px;
     }
 
@@ -1102,13 +1212,13 @@ main {
     }
 
     .form-group input {
-        font-size: 20px;
+        font-size: 20pt;
     }
 
     .rent-now {
 
         height: 1rem;
-        /* font-size: 10px; */
+        /* font-size: 10pt; */
 
         line-height: 1rem;
 
@@ -1148,21 +1258,22 @@ main {
     }
 
     .form-group .room-target input {
-        font-size: 24px;
+        font-size: 24pt;
         height: 40px;
     }
+
     .number-group {
         margin: unset;
-        height: 30px;
+        height: 30pt;
         margin-bottom: 0%;
     }
 
     .room-number {
 
 
-        font-size: 14px;
-        height: 30px;
-        line-height: 30px;
+        font-size: 14pt;
+        height: 30pt;
+        line-height: 30pt;
 
 
 
@@ -1170,7 +1281,7 @@ main {
     }
 
     .room-number2 {
-        font-size: 14px;
+        font-size: 14pt;
 
 
 
@@ -1190,6 +1301,7 @@ main {
         /* height: 2000px; */
 
     }
+
     .room-pic {
         width: 100%;
         margin: 5px 10px;
@@ -1206,8 +1318,7 @@ main {
     }
 
     .room-title {
-        font-size: 24px;
-        margin-top: 15px;
+        font-size: 24pt;
         margin-left: 10px;
 
 
@@ -1216,23 +1327,23 @@ main {
 
     .peoples {
 
-        font-size: 18px;
+        font-size: 18pt;
 
-        height: 32px;
+        height: 36px;
 
-        margin-top: 15px;
+        margin-top: 8px;
     }
 
     .room-line {
 
-        margin-top: unset;
+        margin-top: 12px;
 
     }
 
     .room-first {
         margin-top: 8px;
         margin-left: 10px;
-        font-size: 18px;
+        font-size: 18pt;
 
 
 
@@ -1247,7 +1358,7 @@ main {
 
     .empty-room {
 
-        font-size: 24px;
+        font-size: 24pt;
         text-align: center;
 
         margin: 2px 0 1rem 24px;
@@ -1257,19 +1368,19 @@ main {
     .room-price {
 
 
-        font-size: 36px;
+        font-size: 36pt;
         margin-bottom: 1rem;
         margin-left: 24px;
 
     }
 
     .form-group .room-target .number-group select {
-        font-size: 24px;
+        font-size: 24pt;
         height: 50px;
     }
 
     .form-group .room-target input {
-        font-size: 24px;
+        font-size: 24pt;
         height: 60px;
     }
 
@@ -1282,9 +1393,8 @@ main {
     }
 
     .room-number {
-        font-size: 26px;
+        font-size: 26pt;
         text-align: right;
-        margin-top: 10px;
 
 
         /* margin-left: 10px; */
@@ -1294,7 +1404,7 @@ main {
     }
 
     .room-number2 {
-        font-size: 26px;
+        font-size: 26pt;
         margin-bottom: 6px;
 
 
@@ -1302,17 +1412,17 @@ main {
 
     .rent-now {
         width: 97%;
-        margin-left:0.2rem;
+        margin-left: 24px;
     }
 
 
     #back-index {
-        font-size: 24px;
+        font-size: 24pt;
 
     }
 
     #pay-now {
-        font-size: 24px;
+        font-size: 24pt;
 
     }
 
@@ -1338,7 +1448,7 @@ main {
     main {
         background-color: rgb(109, 230, 225);
         width: 100%;
-        padding: 140px 40px 40px;
+        padding: 150px 50px 50px;
         /* height: 2000px; */
 
     }
@@ -1346,32 +1456,32 @@ main {
     .form-group label,
     .form-group input,
     .form-group select {
-        font-size: 26px;
+        font-size: 26pt;
     }
 
     #rent-body {
         padding: 40px 34px;
 
     }
-    .peoples{
-        font-size: 16px;
-    }
 
     #rent-title {
-        font-size: 36px;
+        font-size: 36pt;
     }
+
+    .peoples {
+        font-size: 16pt;
+    }
+
+
 
     #rent-information {
         text-align: center;
-        font-size: 30px;
-    }
-    .room-target{
-        margin-top: 0px;
+        font-size: 30pt;
     }
 
     .empty-room {
 
-        font-size: 24px;
+        font-size: 24pt;
 
         margin: 2px 0 0.5rem 24px;
 
@@ -1379,7 +1489,7 @@ main {
 
     .room-price {
 
-        font-size: 36px;
+        font-size: 36pt;
         margin-bottom: 0.5rem;
         margin-left: 24px;
 
@@ -1390,13 +1500,25 @@ main {
         margin-bottom: 1rem;
     }
 
+    .card-type .col-md-4:nth-child(2) {
+        justify-content: flex-start;
+    }
+
+    .card-type .col-md-4:nth-child(2) {
+        justify-content: center;
+    }
+
+    .card-type .col-md-4:nth-child(3) {
+        justify-content: flex-end;
+    }
+
     #back-index {
-        font-size: 26px;
+        font-size: 26pt;
 
     }
 
     #pay-now {
-        font-size: 26px;
+        font-size: 26pt;
 
     }
 
@@ -1411,6 +1533,49 @@ main {
         /* height: 2000px; */
 
     }
+
+    .rdobutton_label {
+        position: relative;
+        display: block;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        border: 3px solid rgb(138, 185, 223);
+        border-radius: 100%;
+        -moz-transition: background-color 0.2s ease-in;
+        -webkit-transition: background-color 0.2s ease-in;
+        -o-transition: background-color 0.2s ease-in;
+        transition: background-color 0.2s ease-in;
+    }
+
+    .rdobutton_label::before {
+        content: "";
+        position: absolute;
+        top: 8.15%;
+        left: 7%;
+        width: 16px;
+        height: 16px;
+        background-color: rgb(138, 185, 223);
+        border-radius: 100%;
+        opacity: 0;
+        -moz-transition: opacity 0.2s ease-in;
+        -webkit-transition: opacity 0.2s ease-in;
+        -o-transition: opacity 0.2s ease-in;
+        transition: opacity 0.2s ease-in;
+    }
+
+    input:checked+.rdobutton_label {
+        background-color: white;
+    }
+
+    .rdobutton_radio:checked+.rdobutton_label::before {
+        opacity: 1;
+    }
+
+    .rdobutton_radio {
+        display: none;
+    }
+
     /* .peoples{
         font-size: ;
     } */
@@ -1418,32 +1583,39 @@ main {
     .form-group label,
     .form-group input,
     .form-group select {
-        font-size: 26px;
+        font-size: 26pt;
     }
 
     #rent-body {
-        padding: 40px 20px;
+        padding: 20px 20px;
 
     }
 
     #rent-title {
-        font-size: 36px;
+        font-size: 36pt;
     }
 
     #rent-information {
         text-align: center;
-        font-size: 30px;
+        font-size: 30pt;
+    }
+
+    .form-group label {
+        font-size: 24pt;
+    }
+
+    .form-group input {
+        font-size: 21pt;
     }
 
     .room-target {
-        /* margin-top: 10px; */
 
         padding-bottom: 52%;
     }
 
     .empty-room {
 
-        font-size: 24px;
+        font-size: 24pt;
 
         margin: 2px 0 1rem 24px;
 
@@ -1451,7 +1623,7 @@ main {
 
     .room-price {
 
-        font-size: 36px;
+        font-size: 36pt;
         margin-bottom: 1rem;
         margin-left: 24px;
 
@@ -1463,13 +1635,62 @@ main {
         margin-bottom: 1rem;
     }
 
+    .spare-line {
+        margin: 50px 0;
+    }
+
+    .forrwd {
+        position: absolute;
+        left: -40px;
+    }
+
+    .payword {
+        font-size: 24pt;
+        font-weight: unset;
+    }
+
+    #payway {
+        font-size: 30pt;
+        text-align: center;
+        margin: 0 0 10px;
+    }
+
+    .paybox {
+        margin: 10px 0 0 0;
+    }
+
+    .discript-for-pay {
+        font-weight: 500;
+        /* position:absolute;
+        left: 0; */
+
+    }
+
+    .form-group .creditcard {
+        font-size: 24pt;
+        font-weight: unset;
+
+    }
+
+    #paypay {
+        margin-top: 1220px;
+        padding-bottom: unset;
+        margin-bottom: 0px;
+    }
+
+    .card-type2 {
+        margin: 0rem 0 0 0;
+    }
+
+
+
     #back-index {
-        font-size: 24px;
+        font-size: 24pt;
 
     }
 
     #pay-now {
-        font-size: 24px;
+        font-size: 24pt;
 
     }
 
@@ -1483,12 +1704,13 @@ main {
 }
 
 @media(max-width:590px) {
-    .peoples{
-        font-size:15px ;
+    .peoples {
+        font-size: 15pt;
     }
+
     .empty-room {
 
-        font-size: 24px;
+        font-size: 24pt;
 
         margin: 10px 0 0.5rem 24px;
 
@@ -1496,8 +1718,8 @@ main {
 
     .room-price {
 
-        font-size: 36px;
-        margin: 0.5rem 0;
+        font-size: 36pt;
+        margin: 1rem 0;
         margin-left: 24px;
 
     }
@@ -1511,30 +1733,39 @@ main {
 }
 
 @media(max-width:575px) {
-    .room-title{
-        font-size: 24px;
+    .room-title {
+        font-size: 18pt;
     }
 
-    .peoples{
-        font-size:18px ;
+    .room-eng {
+        letter-spacing: -0.1px;
     }
+
+    .peoples {
+        font-size: 12pt;
+    }
+
     .room-target {
 
-        padding-bottom: 60%;
+        padding-bottom: 80%;
     }
 
     .empty-room {
 
-        font-size: 24px;
+        font-size: 24pt;
 
         margin: 0 0 0.4rem 24px;
 
     }
 
+    .card-type .col-md-4 label {
+        margin: unset;
+    }
+
     .room-price {
 
-        font-size: 36px;
-        margin: 0 0 1rem;
+        font-size: 36pt;
+        margin: 20% 0 1rem;
         margin-left: 24px;
 
     }
@@ -1546,22 +1777,26 @@ main {
 }
 
 @media(max-width:520px) {
-    .room-title{
-        font-size: 24px;
+    .room-title {
+        font-size: 20pt;
     }
 
-    .peoples{
-        font-size:18px ;
+    .room-eng {
+        letter-spacing: -0.1px;
+    }
+
+    .peoples {
+        font-size: 14pt;
     }
 
     .room-target {
 
-        padding-bottom: 67%;
+        padding-bottom: 95%;
     }
 
     .empty-room {
 
-        font-size: 24px;
+        font-size: 24pt;
 
         margin: 0 0 0.4rem 24px;
 
@@ -1569,8 +1804,8 @@ main {
 
     .room-price {
 
-        font-size: 36px;
-        margin: 15px 0 1rem;
+        font-size: 36pt;
+        margin: 30% 0 1rem;
         margin-left: 24px;
 
     }
@@ -1581,12 +1816,12 @@ main {
     }
 
     #back-index {
-        font-size: 20px;
+        font-size: 20pt;
 
     }
 
     #pay-now {
-        font-size: 20px;
+        font-size: 20pt;
 
     }
 
@@ -1594,7 +1829,16 @@ main {
 
 
 
+
+/* .rdobutton_radio{
+width: 25px;
+height: 25px;
+} */
+
+
+
 /* #origin{
     width: 20px;
     height: 20px;
 } */
+

@@ -2,7 +2,7 @@
 
 @section('page_title')
 
-最新消息
+Ample Villa 首頁
 
 @endsection
 
@@ -250,7 +250,7 @@
                 document.getElementById("mday2").innerHTML = yy + ".0" + mm + "." + dd;
                 document.getElementById("mday3").innerHTML = yy + ".0" + mm + "." + dd;
                 document.getElementById("mday4").innerHTML = yy + ".0" + mm + "." + dd;
-            }
+        }~
         } else {
             if (dd < 10) {
                 document.getElementById("mday").innerHTML = yy + "." + mm + ".0" + dd;
