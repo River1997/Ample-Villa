@@ -192,15 +192,15 @@
                     <div class="text">
                         <div class="text-left-1">
                             <div class="ample-villa">
-                                <span class="item"><a href="">關於Ample Villa</a></span>
-                                <span class="item"><a href="">房型一覽</a></span>
+                                <span class="item"><a href="{{ asset('/about_us') }}">關於Ample Villa</a></span>
+                                <span class="item"><a href="{{ asset('/room') }}">房型一覽</a></span>
                                 <span class="item"><a href="">附近風景</a></span>
                             </div>
 
                             <div class="ample-villa">
-                                <span class="item"><a href="">最新消息</a></span>
-                                <span class="item"><a href="">服務及設施</a></span>
-                                <span class="item"><a href="">線上訂房</a></span>
+                                <span class="item"><a href="{{ asset('/news/news') }}">最新消息</a></span>
+                                <span class="item"><a href="{{ asset('/service') }}">服務及設施</a></span>
+                                <span class="item"><a href="{{ asset('/rent') }}">線上訂房</a></span>
                             </div>
                             <div class="footer-word-border-2"></div>
                         </div>
