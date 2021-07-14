@@ -31,7 +31,7 @@
             </div>
 
             <div class="button-5  ">
-                <a class="btn btn-primary  profile-size " href="#" role="button">回首頁</a>
+                <a class="btn btn-primary  profile-size" href="{{ ("/") }}" role="button">回首頁</a>
             </div>
         </div>
     </div>
