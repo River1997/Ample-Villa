@@ -1,4 +1,4 @@
-@extends('layouts.sample')
+@extends('layouts.sample-footer2')
 
 @section('page_title')
 
@@ -93,7 +93,7 @@
                 </div>
                 <div class="row" style="padding: unset;margin:unset;">
                     <div class="col-4" id="inside-logo">
-                        <img src="{{ asset("img-index/地圖-指針圖案.png") }}" alt="">
+                        <img src="{{ asset("img-index/內文-logo.png") }}" alt="">
                     </div>
                 </div>
 
@@ -106,7 +106,7 @@
     <div class="main2">
         <div class="row" style="padding: unset;margin:unset;">
             <div class="col-4" id="inside-logo2">
-                <img src="{{ asset("img-index/地圖-指針圖案.png") }}" alt="">
+                <img src="{{ asset("img-index/內文-logo.png") }}" alt="">
             </div>
         </div>
         <div class="row" style="padding: unset;margin: unset;position:relative">
@@ -223,7 +223,7 @@
             </div>
 
         </div>
-      
+
     </div>
     <footer></footer>
 

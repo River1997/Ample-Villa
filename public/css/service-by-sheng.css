@@ -275,7 +275,7 @@ transition-delay: 0s !important;
  .sertext {
      font-size: 30px;
      text-align: center;
-     margin-bottom: 15px;
+     margin: 15px 0;
  }
 
  .detailforservice .piactableblue {
@@ -555,6 +555,19 @@ transition-delay: 0s !important;
 
 
  }
+ .pic5{
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 100%;
+}
+.pic5 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 
 
@@ -892,10 +905,10 @@ transition-delay: 0s !important;
 
 
  }
- .pic4 img {
+ /* .pic4 img {
      width: 74%;
      height: 262px;
- }
+ } */
  #wehave {
      width: 1200px;
      height: 100px;
@@ -919,7 +932,7 @@ transition-delay: 0s !important;
      background-color: white;
      position: absolute;
      right: 0;
-     top: 15.5%;
+     top: 13.5%;
      display: flex;
      justify-content: space-between;
 
@@ -932,7 +945,7 @@ transition-delay: 0s !important;
      background-color: rgb(138, 185, 223);
      position: absolute;
      right: 25px;
-     top: calc(15.5% + 25px);
+     top: calc(13.5% + 25px);
 
  }
 
@@ -945,7 +958,7 @@ transition-delay: 0s !important;
      height: 840px;
      position: absolute;
      right: 0px;
-     top: 60px;
+     top: 0px;
  }
  .textimg img {
      width: 150px;
@@ -954,18 +967,44 @@ transition-delay: 0s !important;
 
  .formargin{
      width: 170px;
-     margin: 30px calc(calc(100% - 340px) / 4) 0 0;
+     margin: 15px calc(calc(100% - 340px) / 4) 0 0;
 
 
  }
- .pic5 img {
-     width: 100%;
-     height: 1000px;
-     opacity: 0.3;
+ .pic5{
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 200%;
+}
+.pic5 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+ }
+ @media(max-width:696px){
+    .pic5{
+        width: 100%;
+        height: 1358px;
+
+
+    }
+    pic5 img{
+        width: 100%;
+        height: 100%;
+        position: unset;
+
+
+    }
+
  }
 
 
- }
 
  @media(max-width:642px){
      .detailforservice .pictable {
@@ -975,7 +1014,7 @@ transition-delay: 0s !important;
      background-color: white;
      position: absolute;
      right: 0;
-     top: 15.5%;
+     top: 11.5%;
      display: flex;
      justify-content: space-between;
 
@@ -988,7 +1027,7 @@ transition-delay: 0s !important;
      background-color: rgb(138, 185, 223);
      position: absolute;
      right: 25px;
-     top: calc(15.5% + 25px);
+     top: calc(11.5% + 25px);
 
  }
  .picforsevice {
@@ -1020,7 +1059,7 @@ transition-delay: 0s !important;
 
  .formargin{
      width: 140px;
-     margin: 30px calc(calc(100% - 280px) / 4) 0 0;
+     margin: 15px calc(calc(100% - 280px) / 4) 0 0;
 
 
  }
@@ -1082,7 +1121,7 @@ transition-delay: 0s !important;
 
  .formargin{
      width: 90px;
-     margin: 30px calc(calc(100% - 190px) / 4) 0 0;
+     margin: 0px calc(calc(100% - 190px) / 4) 0 0;
 
 
  }
@@ -1124,10 +1163,10 @@ transition-delay: 0s !important;
      top: calc(15.5% + 25px);
 
  }
- .pic5 img {
+ .pic5{
      width: 100%;
-     height: 1050px;
-     opacity: 0.3;
+     height: 1250px;
+
  }
 
 

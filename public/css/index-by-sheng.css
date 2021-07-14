@@ -151,14 +151,23 @@ nav .col-2 img {
     bottom: -350px;
     z-index: 3;
 }
+#inside-logo img{
+    width: 700px;
+    height: 700px;
+}
+
 
 #inside-logo2 {
     margin: unset;
     padding: unset;
     position: absolute;
     right: -7rem;
-    top: -400px;
+    top: -360px;
     z-index: 3;
+}
+#inside-logo2 img{
+ width: 700px;
+ height: 700px;
 }
 
 #news-backgro {
@@ -1376,6 +1385,9 @@ nav .col-2 img {
     }
 
     #map-pic {
+        display: none;
+    }
+    #birds{
         display: none;
     }
 

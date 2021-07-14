@@ -115,15 +115,16 @@ Ample Villa-最新消息
                     </div>
                     <div class="col-xl-4 col-sm-8 col-9" style="padding: unset;margin: auto;">
                         <div class="row" style="margin: auto;">
-                            <a class="col-2 page-last" style="padding: unset;">〈</a>
-                            <a class="col-2 page" style="padding: unset;">1</a>
-                            <a class="col-2 page" style="padding: unset;">2</a>
-                            <a class="col-2 page" style="padding: unset;">3</a>
-                            <a class="col-2 page-next" style="padding: unset;">〉</a>
+                            <a class="col-2 page-last" style="padding: unset;" href="">〈</a>
+                            <a class="col-2 page" style="padding: unset;" href="">1</a>
+                            <a class="col-2 page" style="padding: unset;" href="">2</a>
+                            <a class="col-2 page" style="padding: unset;" href="">3</a>
+                            <a class="col-2 page-next" style="padding: unset;" href="">〉</a>
                         </div>
 
+
                     </div>
-                    <a class="col-xl-4 col-sm-2 col-3 imgarrow" style="padding: unset;" href="" >
+                    <a class="col-xl-4 col-sm-2 col-2 imgarrow" style="padding: unset;" href="" >
                         <img src="{{ asset("img-最新消息/top.png") }}" alt="">
 
                     </a>

@@ -753,6 +753,30 @@ nav .col-2 img {
         opacity: 1;
         color: white;
     }
+    .page-last, .page, .page-next{
+        font-size: 60px;
+        color: white;
+        text-align: center;
+    }
+    .page-last:hover, .page-next:hover{
+        text-decoration: none;
+    }
+    .imgarrow{
+        text-align: right;
+
+        position: relative
+    }
+     .imgarrow img{
+        width: 80px;
+        height: 80px;
+
+        position: relative;
+
+        text-align: right;
+    }
+    .forpad{
+        height: 150px;width: 100%;
+    }
 
 }
 
@@ -841,7 +865,8 @@ nav .col-2 img {
         color: white;
     }
     .page-last, .page, .page-next{
-    font-size: 75px;
+        margin-top: 80px;
+    font-size: 60px;
     color: white;
     text-align: center;
 }
@@ -850,13 +875,14 @@ nav .col-2 img {
 }
 .imgarrow{
     text-align: right;
+    margin-top: 80px;
 
 
     position: relative
 }
  .imgarrow img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 
     position: relative;
 
@@ -1048,7 +1074,7 @@ nav .col-2 img {
         text-align: left;
         margin-top: 160px;
         position: absolute;
-        left: 3%;
+        left: 15%;
         top: 250px;
         z-index: 1;
 
@@ -1063,7 +1089,7 @@ nav .col-2 img {
         text-align: left;
         margin-top: 160px;
         position: absolute;
-        left: 3%;
+        left: 15%;
         top: 250px;
         z-index: 1;
     }
