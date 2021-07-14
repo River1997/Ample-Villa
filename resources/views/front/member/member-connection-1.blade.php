@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="{{ asset(("css/member-login.css")) }}">
 <link rel="stylesheet" href="{{ asset(("css/member-reservation-1.css")) }}">
 <link rel="stylesheet" href="{{ asset(("css/member-connection-3.css")) }}">
-<link rel="stylesheet" href="{{ asset(("css/member-profile-1.css")) }}">
+
 <link rel="stylesheet" href="{{ asset(("css/member-reservation-1.css")) }}">
 <link rel="stylesheet" href="{{ asset(("css/test.css")) }}">
 

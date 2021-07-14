@@ -182,15 +182,7 @@ a:hover{
 .btn-group-1{
     position: relative;
 }
-.btn-group-1::after{
-    content: " ";
-    position: absolute;
-    top: 740px;
-    right: 12%;
-    width: 76%;
-    height: 5px;
-    background-color: rgb(218, 240, 251);
-}
+
 .profile-size{
     width: 380px;
     height: 68px;
@@ -198,11 +190,11 @@ a:hover{
 .button-5{
    position: relative;
 }
-.button-5 a{
+.button-5 a {
     font-size: 36px;
     background-color: rgb(123, 177, 224);
     position: absolute;
-    top: -170px;
+    top: -114px;
     right: 12%;
 }
 
