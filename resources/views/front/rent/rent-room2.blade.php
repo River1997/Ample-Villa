@@ -362,14 +362,14 @@
                     <div class="row" id="paypay">
                         <div class="col-xl-3 col-md-5 col-6">
                             <a href="{{ asset("/rent") }}" id="back-index" >
-                                <input type="button" value="回上一頁" id="back-index" class="form-control">
+                                <input type="button" value="回上一頁" id="back-index" class="form-control" style="height: 80px">
                             </a>
 
                         </div>
                         <!-- <div class="col-xl-6 col-md-4 col-2"></div> -->
                         <div class="col-xl-3 col-md-5 col-6">
                             <a href="{{ asset("/rent-pay") }}" id="back-index" >
-                                <input type="button" value="填寫資料" id="pay-now" class="form-control">
+                                <input type="button" value="填寫資料" id="pay-now" class="form-control" style="height: 80px">
                             </a>
 
                         </div>
