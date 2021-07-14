@@ -194,7 +194,7 @@
                             <div class="ample-villa">
                                 <span class="item"><a href="{{ asset('/about_us') }}">關於Ample Villa</a></span>
                                 <span class="item"><a href="{{ asset('/room') }}">房型一覽</a></span>
-                                <span class="item"><a href="">附近風景</a></span>
+                                <span class="item"><a href="{{ asset('/landscape') }}">附近風景</a></span>
                             </div>
 
                             <div class="ample-villa">
