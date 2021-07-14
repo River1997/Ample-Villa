@@ -209,7 +209,7 @@ Ample Villa 首頁
             </div>
 
         </div>
-        <div class="row" style="margin: unset;padding-top: 110px;">
+        <div class="row" style="margin: unset;padding-top: 0px;">
             <div class="container2" style="position: relative;">
                 <div class="col-12" id="getting-here">
                     Getting here
