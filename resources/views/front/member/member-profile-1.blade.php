@@ -11,9 +11,10 @@
 <link rel="stylesheet" href="{{ asset(("css/member-login.css")) }}">
 <link rel="stylesheet" href="{{ asset(("css/member-reservation-1.css")) }}">
 <link rel="stylesheet" href="{{ asset(("css/member-connection-3.css")) }}">
-<link rel="stylesheet" href="{{ asset(("css/member-profile-1.css")) }}">
+<link rel="stylesheet" href="{{ asset('css/member-profile-1.css') }}">
 <link rel="stylesheet" href="{{ asset(("css/member-reservation-1.css")) }}">
 <link rel="stylesheet" href="{{ asset(("css/test.css")) }}">
+<link rel="stylesheet" href="{{ asset('css/member-profile-2.css') }}">
 
 
 @endsection
@@ -27,7 +28,7 @@
     <div class="col  white   ">
         <div class="title-1 ">會員專區</div>
         <div class="container">
-            
+
         </div>
         <div class="btn-group-1">
             <div id="btn-1" class="small-button test tab-btn active">會員資料 </div>
