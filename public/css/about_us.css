@@ -4,8 +4,14 @@
     background-color: rgba(137,185,223,255);
     position: relative;
     height: 1300px;
-    margin-bottom: 50px;
     overflow: hidden;
+}
+
+
+.container2 {
+    padding-top: 80px;
+    width: 89.53%;
+    margin: auto;
 }
 
 .cover-about-us-01 img{
@@ -77,7 +83,28 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+#getting-here {
+    text-align: center;
+    color: black;
+    font-family: 'Century Schoolbook', sans-serif;
+    font-size: 48px;
 
+}
+
+#birds {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    text-align: right;
+}
+
+#line {
+    height: 5px;
+    background-color: rgb(93, 194, 235);
+    width: 255px;
+    margin: auto;
+    margin-bottom: 40px;
+}
 
 @keyframes cover-about-us-06 {
     from {
@@ -488,13 +515,7 @@
     }
 }
 
-@media(max-width:570px){
-    .cover-about-us-02 img {
-        width: 30%;
-        right: 25px;
-        bottom: 168px;
-    }
-}
+
 
 @media(max-width:592px){
     .cover-about-us-02 img {
@@ -518,6 +539,29 @@
 
 
 
+}
+
+@media(max-width:570px){
+    .cover-about-us-02 img {
+        width: 30%;
+        right: 25px;
+        bottom: 168px;
+    }
+    #line {
+        width: 150px;
+    }
+
+    #birds {
+
+        right: 200px;
+        bottom: 0px;
+        z-index: -1;
+
+
+    }
+    #birds{
+        display: none;
+    }
 }
 
 @media (max-width:536px) {
