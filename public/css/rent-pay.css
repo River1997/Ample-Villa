@@ -226,7 +226,7 @@ main {
 
 .room-eng {
 
-    letter-spacing: -5px;
+    letter-spacing: 0px;
 }
 
 .room-title .col-7 {
@@ -796,7 +796,7 @@ main {
     }
 
     .room-eng {
-        letter-spacing: -2px;
+        letter-spacing: -1px;
     }
 
     .room-title .col-7 {

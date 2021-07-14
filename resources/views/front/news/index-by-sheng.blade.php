@@ -197,13 +197,13 @@ Ample Villa 首頁
             </div>
             <div class="row" id="arrow">
                 <div class="col-8" style="padding: unset;">
-                    <a href="" style="text-decoration: none;color: white;">
+                    <a href="{{ asset("/news/news") }}" style="text-decoration: none;color: white;">
                         <img src="{{ asset("img-index/內文-指標1.png") }}" alt="">
                         <img src="{{ asset("img-index/內文-指標2.png") }}" alt="">
                     </a>
                 </div>
                 <div class="col-3" style="padding: unset;">
-                    <div id="more"><a href="{{ ("/news/news") }}" style="color: white;text-decoration:none;">More</a></div>
+                    <div id="more"><a href="{{ asset("/news/news") }}" style="color: white;text-decoration:none;">More</a></div>
                 </div>
 
             </div>
@@ -285,17 +285,10 @@ Ample Villa 首頁
             box2.style.display = "none"
         }
         setTimeout("codefans()", 0000);//3秒
-        setTimeout("codefans2()", 5500);
-        setTimeout("codefans()", 6700);
-        setTimeout("codefans2()", 9500);
-        setTimeout("codefans3()", 11000);
         setTimeout("codefans2()", 14000);
         setTimeout("codefans()", 31500);
         setTimeout("codefans()", 0000);//3秒
-        setTimeout("codefans2()", 38500);
-        setTimeout("codefans()", 40000);
-        setTimeout("codefans2()", 42500);
-        setTimeout("codefans3()", 44500);
+
         setTimeout("codefans2()", 47000);
         setTimeout("codefans()", 65500);
 
