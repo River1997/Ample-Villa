@@ -156,6 +156,14 @@
                     <div class="compass"><img src="./img/地圖-指針圖案.png" alt="" style="max-width:414px;"></div>
 
                 </div>
+                <div class="lookme">
+                    <div class="write">關注我們</div>
+                    <div class="photo">
+                        <a class="img" href="https://www.facebook.com/ample.villa/"><img src="{{ asset('./img/fb.png') }}" alt=""></a>
+                        <a class="img middle" href="https://www.instagram.com/ample_villa/"><img src="{{ asset('./img/ig.png') }}" alt=""></a>
+                        <a class="img" href="https://www.google.com/intl/zh-TW/gmail/about/#"><img src="{{ asset('./img/email.png') }}" alt=""></a>
+                    </div>
+                </div>
                 <br>
                 <br><br>
                 {{-- <div class="text">

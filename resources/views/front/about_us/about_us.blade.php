@@ -1,4 +1,4 @@
-@extends('layouts.sample')
+@extends('layouts.sample-footer2')
 
 @section('page_title')
 
