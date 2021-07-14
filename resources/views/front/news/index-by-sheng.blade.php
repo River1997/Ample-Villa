@@ -203,7 +203,7 @@ Ample Villa 首頁
                     </a>
                 </div>
                 <div class="col-3" style="padding: unset;">
-                    <div id="more"><a href="{{ ("/about_us") }}" style="color: white;text-decoration:none;">More</a></div>
+                    <div id="more"><a href="{{ ("/news/news") }}" style="color: white;text-decoration:none;">More</a></div>
                 </div>
 
             </div>
@@ -250,7 +250,7 @@ Ample Villa 首頁
                 document.getElementById("mday2").innerHTML = yy + ".0" + mm + "." + dd;
                 document.getElementById("mday3").innerHTML = yy + ".0" + mm + "." + dd;
                 document.getElementById("mday4").innerHTML = yy + ".0" + mm + "." + dd;
-        }~
+        }
         } else {
             if (dd < 10) {
                 document.getElementById("mday").innerHTML = yy + "." + mm + ".0" + dd;
