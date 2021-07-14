@@ -14,7 +14,7 @@
 
 <link rel="stylesheet" href="{{ asset(("css/member-reservation-1.css")) }}">
 <link rel="stylesheet" href="{{ asset(("css/test.css")) }}">
-
+<link rel="stylesheet" href="{{ asset(("css/member-profile-2.css")) }}">
 
 @endsection
 

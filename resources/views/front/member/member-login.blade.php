@@ -9,6 +9,7 @@
 @section('css')
 
 <link rel="stylesheet" href="{{ asset(("css/member-login.css")) }}">
+<link rel="stylesheet" href="{{ asset(("css/member-connection-2.css")) }}">
 
 @endsection
 

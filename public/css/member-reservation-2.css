@@ -21,7 +21,8 @@
 }
 
 .btn-group-1{
-   padding: 0 50px 0 50px ;
+    width: 85%;
+
     height: 68px;
     margin: auto;
     text-align: center;
@@ -35,7 +36,7 @@ a:hover{
     list-style: none !important;
 }
 .btn-group-1 a{
-    width: 400px;
+    width: 33%;
     background-color: white;
     border: 1px solid rgb(138,185,223);
     color: rgb(138,185,223);
