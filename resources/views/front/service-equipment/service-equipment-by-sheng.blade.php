@@ -33,7 +33,7 @@
                             <div class="col-12" style="padding: unset;">
                                 <div class="row" style="margin: unset;">
                                     <div class="col-12 textforservice2" style="padding: unset;">
-                                        所有房間都能享受到免費&nbsp;&nbspWi-Fi;&nbsp;&nbsp; 。每日客房清潔服務、壁爐、私人登記入住 /
+                                        所有房間都能享受到免費&nbsp;&nbsp;Wi-Fi&nbsp;&nbsp; 。每日客房清潔服務、壁爐、私人登記入住 /
                                         退房的服務等一系列頂級設施。</div>
                                     <div class="col-12" style="padding: unset;height: 26px;"></div>
                                     <div class="col-12 textforservice2" style="padding: unset;">水湳洞 Ample Villa 有 4
