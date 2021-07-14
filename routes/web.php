@@ -25,7 +25,7 @@ Route::get('/', function () {
 
 
 // Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/home', 'FrontController@success')->name('home');
+Route::get('/success', 'FrontController@success')->name('home');
 
 
 Route::get('/admin/news/create', 'NewsController@create');
@@ -64,12 +64,14 @@ Route::get('/member/connection-1', 'FrontController@connection1');
 Route::get('/member/connection-2', 'FrontController@connection2');
 
 
+Route::middleware('auth', 'user')->group(function(){
+    Route::get('/rent', 'FrontController@rentroom2');
+    Route::get('/rent-pay', 'FrontController@rentpay');
+    Route::get('/rent-detail', 'FrontController@rentdetail');
+    Route::get('/rent-success', 'FrontController@rentsuccess');
+});
 
 
-Route::get('/rent', 'FrontController@rentroom2');
-Route::get('/rent-pay', 'FrontController@rentpay');
-Route::get('/rent-detail', 'FrontController@rentdetail');
-Route::get('/rent-success', 'FrontController@rentsuccess');
 
 Route::get('/news/news', 'FrontController@news');
 
