@@ -62,7 +62,7 @@
                 <div id="rooms-word" class="rooms-word word-4">
                     <span>私人泳池</span>
                 </div>
-                <img src="{{ asset(./img-rooms/rooms-img-luxury4.png) }}" alt="" class="op">
+                <img src="{{ asset("./img-rooms/rooms-img-luxury4.png") }}" alt="" class="op">
             </div>
             <div class="the-rooms-s">
                 <div class="room-img"></div>
