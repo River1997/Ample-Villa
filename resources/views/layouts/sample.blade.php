@@ -148,26 +148,26 @@
     <footer>
         <div class="footer-map" style="background-color: white">
             <div class="container">
-                <div class="text">
+                {{-- <div class="text">
                     <div class="text-getting">Getting Here</div>
                     <div class="seagull"><img src="{{ asset('/img/海鷗.png') }}." alt=""></div>
-                </div>
-                <div class="picture">
+                </div> --}}
+                {{-- <div class="picture">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.405025099367!2d121.85917221500794!3d25.121994183931204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d44fecf95855b%3A0x8b917afc400df58b!2sAmple%20Villa!5e0!3m2!1szh-TW!2stw!4v1625459934102!5m2!1szh-TW!2stw"
                         allowfullscreen="" loading="lazy">
                     </iframe>
                     <div class="compass"><img src="{{ asset('./img/地圖-指針圖案.png') }}" alt=""></div>
 
-                </div>
-                <div class="lookme">
+                </div> --}}
+                {{-- <div class="lookme">
                     <div class="write">關注我們</div>
                     <div class="photo">
                         <div class="img"><img src="{{ asset('./img/fb.png') }}" alt=""></div>
                         <div class="img middle"><img src="{{ asset('./img/ig.png') }}" alt=""></div>
                         <div class="img"><img src="{{ asset('./img/email.png') }}" alt=""></div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
         </div>
